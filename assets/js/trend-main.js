@@ -10,7 +10,7 @@ $(window).on("scroll", function () {
     $("#harman-logo").removeClass("pagescroll-logo-size");
   }
 
-  if ($("body").hasClass("homepage")) {
+  if ($("body").hasClass("harman-trendpage")) {
     $(".navbar").removeClass("active");
     $("#harman-logo").removeClass("pagescroll-logo-size");
   }
