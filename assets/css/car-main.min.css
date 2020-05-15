@@ -120,26 +120,22 @@
 
 .common-car-section .global-car {
   padding: 9%;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    color-stop(-8.27%, #2266b0),
-    color-stop(19.2%, #206ab3),
-    color-stop(44.1%, #1a75be),
-    color-stop(67.92%, #0f87cf),
-    color-stop(91.07%, #00a1e8),
-    color-stop(91.33%, #00a1e8)
-  );
-  background: linear-gradient(
-    90deg,
-    #2266b0 -8.27%,
-    #206ab3 19.2%,
-    #1a75be 44.1%,
-    #0f87cf 67.92%,
-    #00a1e8 91.07%,
-    #00a1e8 91.33%
-  );
+  background: -webkit-gradient(linear,
+      left top,
+      right top,
+      color-stop(-8.27%, #2266b0),
+      color-stop(19.2%, #206ab3),
+      color-stop(44.1%, #1a75be),
+      color-stop(67.92%, #0f87cf),
+      color-stop(91.07%, #00a1e8),
+      color-stop(91.33%, #00a1e8));
+  background: linear-gradient(90deg,
+      #2266b0 -8.27%,
+      #206ab3 19.2%,
+      #1a75be 44.1%,
+      #0f87cf 67.92%,
+      #00a1e8 91.07%,
+      #00a1e8 91.33%);
 }
 
 .common-car-section .global-car h1 {
@@ -344,6 +340,29 @@
   width: 100%;
 }
 
+.svg-img{
+  text-align: center !important;
+  margin: 0 auto;
+}
+
+.svg-img img{
+  width: 70% !important;
+}
+
+.blackchain-title{
+  margin-bottom: 0;
+  color: #2266b0 !important;
+}
+
+.blackchain-title .source-txt{
+  float: right;
+}
+
+.blackchain-title .source-txt a{
+  text-decoration: none;
+  color: #2266b0 !important;
+}
+
 .common-tab-section .image-section h2 {
   font-weight: 900;
   font-size: 18px;
@@ -536,7 +555,12 @@
 }
 
 .global-connectivity #connectivity-4 .content-section {
-  padding: 10%;
+  padding: 25% 10% 10% 10%;
+}
+
+.mobile-search-users {
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .global-connectivity #connectivity-4 .content-section p {
@@ -572,7 +596,7 @@
 }
 
 .global-connectivity #connectivity-5 .image-section img {
-  width: 70%;
+  width: 100%;
 }
 
 .global-connectivity #connectivity-6 .content-section {
@@ -1412,15 +1436,13 @@ a#txt-moveToElectrification span {
 }
 
 .bx4 {
-  background: linear-gradient(
-    90deg,
-    #2266b0 0%,
-    #206ab3 26.64%,
-    #1a75be 50.78%,
-    #0f87cf 73.87%,
-    #00a1e8 96.32%,
-    #00a1e8 96.57%
-  );
+  background: linear-gradient(90deg,
+      #2266b0 0%,
+      #206ab3 26.64%,
+      #1a75be 50.78%,
+      #0f87cf 73.87%,
+      #00a1e8 96.32%,
+      #00a1e8 96.57%);
 }
 
 .bx5 {
@@ -1430,15 +1452,13 @@ a#txt-moveToElectrification span {
 }
 
 .bx6 {
-  background: linear-gradient(
-    90deg,
-    #2266b0 0%,
-    #206ab3 26.64%,
-    #1a75be 50.78%,
-    #0f87cf 73.87%,
-    #00a1e8 96.32%,
-    #00a1e8 96.57%
-  );
+  background: linear-gradient(90deg,
+      #2266b0 0%,
+      #206ab3 26.64%,
+      #1a75be 50.78%,
+      #0f87cf 73.87%,
+      #00a1e8 96.32%,
+      #00a1e8 96.57%);
 }
 
 .bx7 {
