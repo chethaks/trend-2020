@@ -1178,3 +1178,9 @@ footer span {
   font-size: 50px;
   color: #5bcae6;
 }
+
+.header-class {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}

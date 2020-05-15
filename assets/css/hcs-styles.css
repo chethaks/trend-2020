@@ -972,3 +972,14 @@ html {
     min-height: 700px;
   }
 }
+
+.extra-heading {
+  color: #2367B1;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    padding-left: 10%;
+    padding-bottom: 2%;
+}

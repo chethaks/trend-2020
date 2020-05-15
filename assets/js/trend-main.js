@@ -9,6 +9,11 @@ $(window).on("scroll", function () {
     $(".navbar").removeClass("active");
     $("#harman-logo").removeClass("pagescroll-logo-size");
   }
+
+  if ($("body").hasClass("homepage")) {
+    $(".navbar").removeClass("active");
+    $("#harman-logo").removeClass("pagescroll-logo-size");
+  }
   return false;
 });
 
@@ -242,7 +247,7 @@ $("#global").click(function () {
   return false;
 });
 
-$("#moveToConnectivity").click(function () {
+$("#moveToConnectivity, #txt-moveToConnectivity").click(function () {
   $('#connectivity').show();
   $('#autonomous').hide();
   $('#shared').hide();
@@ -257,7 +262,7 @@ $("#moveToConnectivity").click(function () {
   return false;
 });
 
-$("#moveToAutonomous").click(function () {
+$("#moveToAutonomous, #txt-moveToAutonomous").click(function () {
   $('#connectivity').hide();
   $('#autonomous').show();
   $('#shared').hide();
@@ -272,7 +277,7 @@ $("#moveToAutonomous").click(function () {
   return false;
 });
 
-$("#moveToMaas").click(function () {
+$("#moveToMaas, #txt-moveToMaas").click(function () {
   $('#connectivity').hide();
   $('#autonomous').hide();
   $('#shared').show();
@@ -287,7 +292,7 @@ $("#moveToMaas").click(function () {
   return false;
 });
 
-$("#moveToElectrification").click(function () {
+$("#moveToElectrification, #txt-moveToElectrification").click(function () {
   $('#connectivity').hide();
   $('#autonomous').hide();
   $('#shared').hide();
