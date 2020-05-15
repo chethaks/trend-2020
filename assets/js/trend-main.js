@@ -9,6 +9,11 @@ $(window).on("scroll", function () {
     $(".navbar").removeClass("active");
     $("#harman-logo").removeClass("pagescroll-logo-size");
   }
+
+  if ($("body").hasClass("homepage")) {
+    $(".navbar").removeClass("active");
+    $("#harman-logo").removeClass("pagescroll-logo-size");
+  }
   return false;
 });
 
@@ -417,8 +422,8 @@ window.onload = function () {
   lax.setup() // init
 
   const updateLax = () => {
-      lax.update(window.scrollY)
-      window.requestAnimationFrame(updateLax)
+    lax.update(window.scrollY)
+    window.requestAnimationFrame(updateLax)
   }
 
   window.requestAnimationFrame(updateLax)

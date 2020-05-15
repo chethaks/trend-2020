@@ -1,3 +1,15 @@
+.homepage{
+    position: relative;
+}
+
+.homepage .navbar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+
 .navbar {
     -webkit-transition: all 0.9s;
     transition: all 0.9s;
