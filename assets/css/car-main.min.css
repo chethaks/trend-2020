@@ -35,7 +35,7 @@
 }
 
 .bg.car-closer-bg {
-    background-image: url("../images/cc/TB_CC-micro-summary-main-banner.png")
+    background-image: url("../images/cc/TB_CC-micro-trends-main-baner.png")
 }
 
 .car-page {
@@ -408,7 +408,7 @@
 
 .closing-text-car {
     text-align: center;
-    padding: 15%
+    padding: 130px 50px 30px 50px;
 }
 
 .closing-text-car h1 {
@@ -1309,6 +1309,12 @@ a#txt-moveToMaas,
 a#txt-moveToElectrification {
     color: #2266b0;
     text-decoration: none;
+    border-bottom: solid 1px #2266b0;
+}
+
+#moveToNewbm {
+    border-bottom: solid 1px #2266b0;
+    cursor: pointer;
 }
 
 a#txt-moveToConnectivity:hover,
@@ -1329,3 +1335,203 @@ a#txt-moveToElectrification span {
 }
 
 /* CASE SECTION END */
+
+
+/* HOME BANNER TRENDS SECTION START */
+.trends-division {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+
+
+.trends-card {
+    position: relative;
+    text-align: left;
+    /* text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1); */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 400px;
+    height: 130px;
+    cursor: pointer;
+}
+
+.trends-card .trends-card-arrow {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    height: 18px;
+    width: 18px;
+}
+
+.trends-card .cont {
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.trends-card .cont span {
+    display: block;
+}
+
+.bx1 {
+    background: #00A1E8;
+}
+
+.bx2 {
+    background: url(../images/cc/CC-trends-impacting.png) no-repeat;
+    background-size: cover;
+}
+
+.bx3 {
+    background: #15589A;
+    background-blend-mode: multiply;
+    mix-blend-mode: normal;
+}
+
+.bx4 {
+    background: linear-gradient(90deg, #2266B0 0%, #206AB3 26.64%, #1A75BE 50.78%, #0F87CF 73.87%, #00A1E8 96.32%, #00A1E8 96.57%);
+}
+
+.bx5 {
+    background: #15589A;
+    background-blend-mode: multiply;
+    mix-blend-mode: normal;
+}
+
+.bx6 {
+    background: linear-gradient(90deg, #2266B0 0%, #206AB3 26.64%, #1A75BE 50.78%, #0F87CF 73.87%, #00A1E8 96.32%, #00A1E8 96.57%);
+}
+
+.bx7 {
+    background: #15589A;
+    background-blend-mode: multiply;
+    mix-blend-mode: normal;
+}
+
+@media (max-width:1199.98px) {
+    .trends-division {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .trends-card .cont {
+        padding: 10px 15px;
+    }
+}
+
+/* HOME BANNER TRENDS SECTION END */
+
+
+
+/* SUMMRY SECTION START */
+.cc-summary-division {
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+}
+
+
+.cc-summary-division .trends-card {
+    position: relative;
+    text-align: left;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 400px;
+    height: 180px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.cc-summary-division .trends-card .trends-card-arrow {
+    position: absolute;
+    right: 15px;
+    top: 145px;
+    height: 18px;
+    width: 18px;
+}
+
+.cc-summary-division .trends-card .cont {
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.cc-summary-division .trends-card .cont span {
+    display: block;
+}
+
+.cc-summary-division .bx1 {
+    background: #2367B1;
+}
+
+.cc-summary-division .bx2 {
+    background: #2A9FD9;
+}
+
+.cc-summary-division .bx3 {
+    background: #2367B1;
+}
+
+.cc-summary-division .bx4 {
+    background: #2367B1;
+}
+
+.cc-summary-division .bx5 {
+    background: #2367B1;
+}
+
+
+
+@media (max-width:1199.98px) {
+    .cc-summary-division  {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .cc-summary-division .trends-card .cont {
+        padding: 10px 15px;
+    }
+}
+
+/* SUMMARY SECTION END */
+
+
+
+
+
+
+
+.uppercase-txt {
+    text-transform: uppercase;
+}
+
+.cc-summery-h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 36px;
+    /* or 164% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.cc-summery-h3 {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    /* or 200% */
+
+    text-align: center;
+
+    color: #5ACAE6 !important;
+}

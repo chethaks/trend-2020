@@ -227,7 +227,7 @@ $("#market").click(function () {
   return false;
 });
 
-$("#case").click(function () {
+$("#case, #cchead-case").click(function () {
   $("html, body").animate(
     {
       scrollTop: $("#caseSection").offset().top,
@@ -237,7 +237,7 @@ $("#case").click(function () {
   return false;
 });
 
-$("#global").click(function () {
+$("#global, #cchead-global").click(function () {
   $("html, body").animate(
     {
       scrollTop: $("#globalSection").offset().top,
@@ -247,7 +247,7 @@ $("#global").click(function () {
   return false;
 });
 
-$("#moveToConnectivity, #txt-moveToConnectivity").click(function () {
+$("#moveToConnectivity, #txt-moveToConnectivity, #sum-moveToConnectivity, #cchead-moveToConnectivity").click(function () {
   $('#connectivity').show();
   $('#autonomous').hide();
   $('#shared').hide();
@@ -262,7 +262,7 @@ $("#moveToConnectivity, #txt-moveToConnectivity").click(function () {
   return false;
 });
 
-$("#moveToAutonomous, #txt-moveToAutonomous").click(function () {
+$("#moveToAutonomous, #txt-moveToAutonomous, #sum-moveToAutonomous, #cchead-moveToAutonomous").click(function () {
   $('#connectivity').hide();
   $('#autonomous').show();
   $('#shared').hide();
@@ -277,7 +277,7 @@ $("#moveToAutonomous, #txt-moveToAutonomous").click(function () {
   return false;
 });
 
-$("#moveToMaas, #txt-moveToMaas").click(function () {
+$("#moveToMaas, #txt-moveToMaas,#sum-moveToMaas, #cchead-moveToMaas").click(function () {
   $('#connectivity').hide();
   $('#autonomous').hide();
   $('#shared').show();
@@ -292,7 +292,7 @@ $("#moveToMaas, #txt-moveToMaas").click(function () {
   return false;
 });
 
-$("#moveToElectrification, #txt-moveToElectrification").click(function () {
+$("#moveToElectrification, #txt-moveToElectrification, #sum-moveToElectrification, #cchead-moveToElectrification").click(function () {
   $('#connectivity').hide();
   $('#autonomous').hide();
   $('#shared').hide();
@@ -307,7 +307,7 @@ $("#moveToElectrification, #txt-moveToElectrification").click(function () {
   return false;
 });
 
-$("#moveToNewbm").click(function () {
+$("#moveToNewbm, #sum-moveToNewbm, #cchead-moveToNewbm").click(function () {
   $('#connectivity').hide();
   $('#autonomous').hide();
   $('#shared').hide();
