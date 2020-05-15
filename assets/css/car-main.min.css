@@ -43,8 +43,8 @@
 }
 
 .car-page .car-trends-section {
-  /* padding-bottom: 130px; */
-  padding-top: 97px;
+  padding-bottom: 100px;
+  /* padding-top: 97px; */
   background-image: url(../images/hcs/bg-pattern-left.jpg),
     url(../images/hcs/bg-pattern-right.jpg);
   background-position: -50% 0, right top 85%;
@@ -150,6 +150,9 @@
   line-height: 36px;
 }
 
+.global-outlook{
+    padding-top: 100px;
+}
 .global-outlook .padding-15 {
   padding: 15%;
 }
@@ -432,11 +435,11 @@
 
 .closing-text-car h1 {
   font-weight: normal;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 36px;
   letter-spacing: 0.1em;
   color: #fff;
-  padding-top: 2%;
+  padding: 2% 10%;
 }
 
 .closing-text-car h3 {
@@ -985,6 +988,7 @@
 #caseSection {
   padding-top: 15%;
   color: #fff;
+  margin-bottom: 100px;
 }
 
 #caseSection h2 {
