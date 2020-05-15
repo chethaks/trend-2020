@@ -51,7 +51,7 @@
     background-attachment: fixed
 }
 
-#showDown{
+#showDown {
     cursor: pointer;
 }
 
@@ -1300,3 +1300,32 @@
         font-weight: bold
     }
 }
+
+
+/* CASE SECTION STYLES */
+a#txt-moveToConnectivity,
+a#txt-moveToAutonomous,
+a#txt-moveToMaas,
+a#txt-moveToElectrification {
+    color: #2266b0;
+    text-decoration: none;
+}
+
+a#txt-moveToConnectivity:hover,
+a#txt-moveToAutonomous:hover,
+a#txt-moveToMaas:hover,
+a#txt-moveToElectrification:hover {
+    color: #2266b0;
+}
+
+a#txt-moveToConnectivity span,
+a#txt-moveToAutonomous span,
+a#txt-moveToMaas span,
+a#txt-moveToElectrification span {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+/* CASE SECTION END */
