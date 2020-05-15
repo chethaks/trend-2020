@@ -294,23 +294,23 @@ footer span {
 }
 
 .intro-video .videobg-container div:nth-child(2) {
+  font-style: normal;
   font-weight: normal;
-  font-size: 81px;
-  line-height: 85px;
-  letter-spacing: 0.11em;
-}
-
-.intro-video .videobg-container div:nth-child(2) h3 {
-  color: #ffffff;
-  font-size: 60px;
-  font-weight: normal;
-  letter-spacing: 0.11em;
+  font-size: 30px;
+  line-height: 80px;
 }
 
 .intro-video .videobg-container div:nth-child(3) {
   font-weight: normal;
   font-size: 81px;
   line-height: 85px;
+  letter-spacing: 0.11em;
+}
+
+.intro-video .videobg-container div:nth-child(3) h3 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: normal;
   letter-spacing: 0.11em;
 }
 
@@ -321,17 +321,17 @@ footer span {
   letter-spacing: 0.11em;
 }
 
-.intro-video .videobg-container div:nth-child(4) h3 {
-  color: #ffffff;
-  font-size: 60px;
-  font-weight: normal;
-  letter-spacing: 0.11em;
-}
-
 .intro-video .videobg-container div:nth-child(5) {
   font-weight: normal;
   font-size: 81px;
   line-height: 85px;
+  letter-spacing: 0.11em;
+}
+
+.intro-video .videobg-container div:nth-child(5) h3 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: normal;
   letter-spacing: 0.11em;
 }
 
@@ -340,10 +340,17 @@ footer span {
   font-size: 81px;
   line-height: 85px;
   letter-spacing: 0.11em;
+}
+
+.intro-video .videobg-container div:nth-child(7) {
+  font-weight: normal;
+  font-size: 81px;
+  line-height: 85px;
+  letter-spacing: 0.11em;
   color: #ffffff;
 }
 
-.intro-video .videobg-container div:nth-child(6) h3 {
+.intro-video .videobg-container div:nth-child(7) h3 {
   font-size: 90px;
   font-weight: normal;
   letter-spacing: 0.11em;
@@ -1169,5 +1176,5 @@ footer span {
   top: 21%;
   left: 33%;
   font-size: 50px;
-  color: #5BCAE6;
+  color: #5bcae6;
 }

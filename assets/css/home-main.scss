@@ -281,24 +281,30 @@ footer {
         letter-spacing: 0.055em;
       }
       &:nth-child(2) {
+        font-style: normal;
         font-weight: normal;
-        font-size: 81px;
-        line-height: 85px;
-        letter-spacing: 0.11em;
-        h3 {
-          color: $white;
-          font-size: 60px;
-          font-weight: normal;
-          letter-spacing: 0.11em;
-        }
+        font-size: 30px;
+        line-height: 80px;
       }
       &:nth-child(3) {
         font-weight: normal;
         font-size: 81px;
         line-height: 85px;
         letter-spacing: 0.11em;
+        h3 {
+          color: $white;
+          font-size: 60px;
+          font-weight: normal;
+          letter-spacing: 0.11em;
+        }
       }
       &:nth-child(4) {
+        font-weight: normal;
+        font-size: 81px;
+        line-height: 85px;
+        letter-spacing: 0.11em;
+      }
+      &:nth-child(5) {
         font-weight: normal;
         font-size: 81px;
         line-height: 85px;
@@ -310,13 +316,13 @@ footer {
           letter-spacing: 0.11em;
         }
       }
-      &:nth-child(5) {
+      &:nth-child(6) {
         font-weight: normal;
         font-size: 81px;
         line-height: 85px;
         letter-spacing: 0.11em;
       }
-      &:nth-child(6) {
+      &:nth-child(7) {
         font-weight: normal;
         font-size: 81px;
         line-height: 85px;
@@ -1145,10 +1151,10 @@ footer {
   }
 }
 
-.dear-reader{
+.dear-reader {
   position: absolute;
-    top: 21%;
-    left: 33%;
-    font-size: 50px;
-    color: #5BCAE6;
+  top: 21%;
+  left: 33%;
+  font-size: 50px;
+  color: #5bcae6;
 }
