@@ -715,8 +715,9 @@ footer span {
 
 .no-gradient-graph .saviours h1 {
   width: 100%;
-  padding-left: 35%;
+  padding-left: 0%;
   text-align: right;
+  font-size: 30px;
 }
 
 .no-gradient-graph .saviours img {
@@ -1152,4 +1153,3 @@ footer span {
   z-index: 1;
   width: 100%;
 }
-/*# sourceMappingURL=home-main.css.map */
