@@ -294,3 +294,9 @@ button:focus {
 }
 
 /* BACK TO TOP STYLES END */
+
+.header-class {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+  }
