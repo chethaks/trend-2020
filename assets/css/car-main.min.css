@@ -1006,7 +1006,7 @@
 .common-case-section .trend-case {
     position: relative;
     z-index: 1;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     background-color: #fff
 }
 
