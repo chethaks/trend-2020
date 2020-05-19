@@ -248,11 +248,11 @@ $("#global, #cchead-global").click(function () {
 });
 
 $("#moveToConnectivity, #txt-moveToConnectivity, #sum-moveToConnectivity, #cchead-moveToConnectivity").click(function () {
-  $('#connectivity').show();
-  $('#autonomous').hide();
-  $('#shared').hide();
-  $('#electrification').hide();
-  $('#new-business').hide();
+  // $('#connectivity').show();
+  // $('#autonomous').hide();
+  // $('#shared').hide();
+  // $('#electrification').hide();
+  // $('#new-business').hide();
   $("html, body").animate(
     {
       scrollTop: $("#connectivity").offset().top,
@@ -263,11 +263,11 @@ $("#moveToConnectivity, #txt-moveToConnectivity, #sum-moveToConnectivity, #cchea
 });
 
 $("#moveToAutonomous, #txt-moveToAutonomous, #sum-moveToAutonomous, #cchead-moveToAutonomous").click(function () {
-  $('#connectivity').hide();
-  $('#autonomous').show();
-  $('#shared').hide();
-  $('#electrification').hide();
-  $('#new-business').hide();
+  // $('#connectivity').hide();
+  // $('#autonomous').show();
+  // $('#shared').hide();
+  // $('#electrification').hide();
+  // $('#new-business').hide();
   $("html, body").animate(
     {
       scrollTop: $("#openAutonomous").offset().top,
@@ -278,11 +278,11 @@ $("#moveToAutonomous, #txt-moveToAutonomous, #sum-moveToAutonomous, #cchead-move
 });
 
 $("#moveToMaas, #txt-moveToMaas,#sum-moveToMaas, #cchead-moveToMaas").click(function () {
-  $('#connectivity').hide();
-  $('#autonomous').hide();
-  $('#shared').show();
-  $('#electrification').hide();
-  $('#new-business').hide();
+  // $('#connectivity').hide();
+  // $('#autonomous').hide();
+  // $('#shared').show();
+  // $('#electrification').hide();
+  // $('#new-business').hide();
   $("html, body").animate(
     {
       scrollTop: $("#openMaas").offset().top,
@@ -293,11 +293,11 @@ $("#moveToMaas, #txt-moveToMaas,#sum-moveToMaas, #cchead-moveToMaas").click(func
 });
 
 $("#moveToElectrification, #txt-moveToElectrification, #sum-moveToElectrification, #cchead-moveToElectrification").click(function () {
-  $('#connectivity').hide();
-  $('#autonomous').hide();
-  $('#shared').hide();
-  $('#electrification').show();
-  $('#new-business').hide();
+  // $('#connectivity').hide();
+  // $('#autonomous').hide();
+  // $('#shared').hide();
+  // $('#electrification').show();
+  // $('#new-business').hide();
   $("html, body").animate(
     {
       scrollTop: $("#openElectrification").offset().top,
@@ -308,11 +308,11 @@ $("#moveToElectrification, #txt-moveToElectrification, #sum-moveToElectrificatio
 });
 
 $("#moveToNewbm, #sum-moveToNewbm, #cchead-moveToNewbm").click(function () {
-  $('#connectivity').hide();
-  $('#autonomous').hide();
-  $('#shared').hide();
-  $('#electrification').hide();
-  $('#new-business').show();
+  // $('#connectivity').hide();
+  // $('#autonomous').hide();
+  // $('#shared').hide();
+  // $('#electrification').hide();
+  // $('#new-business').show();
   $("html, body").animate(
     {
       scrollTop: $("#openNewbm").offset().top,

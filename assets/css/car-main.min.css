@@ -1,5 +1,6 @@
 .bg.car-banner {
   background-image: url("../images/cc/TOP-overview/TB_CC-top-banner.png");
+  margin-bottom: 100px;
 }
 
 .bg.car-connected-bg1 {
@@ -36,6 +37,18 @@
 
 .bg.car-closer-bg {
   background-image: url("../images/cc/TB_CC-micro-trends-main-baner.png");
+}
+
+.mt-0{
+  margin-top: 0;
+}
+
+#connectivity,
+#autonomous,
+#shared,
+#electrification,
+#new-business{
+  display: block !important;
 }
 
 .car-page {
@@ -147,7 +160,7 @@
 }
 
 .global-outlook{
-    padding-top: 100px;
+    /* padding-top: 100px; */
 }
 .global-outlook .padding-15 {
   padding: 15%;
