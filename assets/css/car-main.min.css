@@ -321,6 +321,14 @@
   width: 80%;
 }
 
+.robotaxi{
+  width: 660px;
+}
+
+.robotaxi span{
+  display: block;
+}
+
 .common-tab-section .car-global-header .global-subtitle {
   font-weight: bold;
   font-size: 18px;
