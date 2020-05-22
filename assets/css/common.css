@@ -1,0 +1,24 @@
+.section-title{
+  max-width: 80%;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  color: #2266B0;
+  padding: 20px 0 22px 0;
+  border-bottom: 4px solid #2266b0;
+  display: inline-block;
+}
+
+.section-title span.split-title{
+  display: block;
+}
+
+.section-title span.bold-txt {
+  font-weight: 900;
+}
+
+.common-tab-section .car-global-header {
+  padding: 130px 0 40px 0;
+}

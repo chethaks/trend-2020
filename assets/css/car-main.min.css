@@ -200,13 +200,6 @@
   letter-spacing: 0.07em;
 }
 
-.global-outlook h1 {
-  color: #fff;
-  font-size: 64px;
-  line-height: 80px;
-  font-weight: bold;
-}
-
 .global-outlook h3 {
   font-size: 64px;
   line-height: 80px;
@@ -247,10 +240,6 @@
   min-width: 175px;
 }
 
-.common-tab-section .car-global-header {
-  padding: 10% 0 5% 0;
-}
-
 .common-tab-section .car-global-header .selected-heading {
   background-color: #00a1e8;
   color: #fff;
@@ -277,16 +266,6 @@
 
 .common-tab-section .car-global-header .global-title {
   border-bottom: 1px solid #2266b0;
-}
-
-.common-tab-section .car-global-header .global-title h1 {
-  font-weight: 900;
-  font-size: 30px;
-  line-height: 35px;
-  letter-spacing: 0.1em;
-  color: #2266b0;
-  padding: 2% 0;
-  border-bottom: 4px solid #2266b0;
 }
 
 .common-tab-section .car-global-header .global-title h1.w70 {
@@ -519,10 +498,6 @@
 
 .global-connectivity .global-title h1 {
   font-weight: normal !important;
-}
-
-.global-connectivity .global-title h1 span {
-  font-weight: 900;
 }
 
 .global-connectivity #connectivity-1 .content-section {
