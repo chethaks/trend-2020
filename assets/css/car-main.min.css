@@ -39,7 +39,83 @@
   background-image: url("../images/cc/TB_CC-micro-trends-main-baner.png");
 }
 
-.mt-0{
+/* GLOBAL AUTOMOTIVE OUTLOOK STYLES START */
+.glbl-auto-trends {
+  position: relative;
+}
+
+.glbl-automotive .lft-column {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 33%;
+}
+
+.glbl-automotive .rgt-column {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 67%;
+}
+
+.gao-lfttitle {
+  margin-left: 20%;
+}
+
+.gao-lfttitle h1 {
+  color: #fff;
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+.gao-lfttitle span {
+  color: #5bcae6;
+}
+
+.glbl-automotive {
+  height: 100vh;
+  background: url("../images/cc/TB_CC-globaloutlook/TB_CC-globaloutlook-banner.png") no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.glbl-auto-trends .trends-list-item li {
+  background-color: #2266b0;
+  padding: 20px !important;
+  min-height: 100%;
+  display: inline-block;
+  width: 200px;
+  height: 195px;
+  text-align: left;
+  position: relative;
+}
+
+.glbl-auto-trends .trends-list-item li:last-child {
+  margin-right: 8px;
+}
+
+.glbl-auto-trends .trends-list-item li span {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  color: #fff;
+  font-size: 14px;
+}
+
+
+/* GLOBAL AUTOMOTIVE OUTLOOK STYLES END */
+
+
+
+.mt-0 {
   margin-top: 0;
 }
 
@@ -47,7 +123,7 @@
 #autonomous,
 #shared,
 #electrification,
-#new-business{
+#new-business {
   display: block !important;
 }
 
@@ -56,7 +132,6 @@
 }
 
 .car-page .car-trends-section {
-  padding-bottom: 100px;
   /* padding-top: 97px; */
   background-image: url(../images/hcs/bg-pattern-left.jpg),
     url(../images/hcs/bg-pattern-right.jpg);
@@ -132,7 +207,7 @@
 }
 
 .common-car-section .global-car {
-  padding: 9%;
+  padding: 10% 100px;
   background: -webkit-gradient(linear,
       left top,
       right top,
@@ -159,9 +234,10 @@
   line-height: 36px;
 }
 
-.global-outlook{
-    /* padding-top: 100px; */
+.global-outlook {
+  /* padding-top: 100px; */
 }
+
 .global-outlook .padding-15 {
   padding: 15%;
 }
@@ -189,7 +265,7 @@
 }
 
 .global-outlook .image-section h6 {
-  padding-left: 5%;
+  /* padding-left: 5%; */
   padding-top: 2%;
 }
 
@@ -300,11 +376,11 @@
   width: 80%;
 }
 
-.robotaxi{
+.robotaxi {
   width: 660px;
 }
 
-.robotaxi span{
+.robotaxi span {
   display: block;
 }
 
@@ -332,33 +408,29 @@
   background-color: #00a1e8;
 }
 
-.common-tab-section .image-section {
-  padding: 5%;
-}
-
 .common-tab-section .image-section img {
   width: 100%;
 }
 
-.svg-img{
+.svg-img {
   text-align: center !important;
   margin: 0 auto;
 }
 
-.svg-img img{
+.svg-img img {
   width: 70% !important;
 }
 
-.blackchain-title{
+.blackchain-title {
   margin-bottom: 0;
   color: #2266b0 !important;
 }
 
-.blackchain-title .source-txt{
+.blackchain-title .source-txt {
   float: right;
 }
 
-.blackchain-title .source-txt a{
+.blackchain-title .source-txt a {
   text-decoration: none;
   color: #2266b0 !important;
 }
@@ -401,6 +473,7 @@
   line-height: 12px;
   letter-spacing: 0.02em;
   color: #a9a9a9;
+  text-align: center;
 }
 
 .common-tab-section .content-section {
@@ -413,7 +486,6 @@
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.07em;
-  padding: 10% 20% 5%;
 }
 
 .common-tab-section .content-section h3 {
@@ -421,7 +493,6 @@
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.07em;
-  padding: 0 20%;
   color: #fff;
 }
 
@@ -431,7 +502,7 @@
   line-height: 18px;
   letter-spacing: 0.07em;
   color: #f7f7f7;
-  padding: 3% 20% 2%;
+  /* padding: 3% 20% 2%; */
 }
 
 .common-tab-section .content-section p {
@@ -439,7 +510,7 @@
   line-height: 24px;
   letter-spacing: 0.07em;
   color: #f7f7f7;
-  padding: 0 15% 0 20%;
+  /* padding: 0 15% 0 20%; */
 }
 
 .common-tab-section .content-section img {
@@ -452,7 +523,7 @@
   padding: 130px 50px 30px 50px;
 }
 
-.cc-summary-section{
+.cc-summary-section {
   margin-bottom: 25px;
 }
 
@@ -486,8 +557,8 @@
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
-  padding-left: 10%;
-  padding-right: 10%;
+  /* padding-left: 10%;
+  padding-right: 10%; */
 }
 
 .global-connectivity .content-section h4 {
@@ -501,7 +572,7 @@
 }
 
 .global-connectivity #connectivity-1 .content-section {
-  padding: 10%;
+  /* padding: 10%; */
 }
 
 .global-connectivity #connectivity-1 .content-section h2 {
@@ -518,7 +589,7 @@
 }
 
 .global-connectivity #connectivity-2 .content-section {
-  padding: 10%;
+  /* padding: 10%; */
 }
 
 .global-connectivity #connectivity-2 .content-section p {
@@ -536,14 +607,7 @@
   color: #686868;
 }
 
-.global-connectivity #connectivity-3 .content-section {
-  padding: 10%;
-}
-
 .global-connectivity #connectivity-3 .content-section p {
-  position: absolute;
-  top: 40%;
-  padding: 5% 10%;
   font-weight: 500;
   line-height: 36px;
 }
@@ -556,7 +620,7 @@
 }
 
 .global-connectivity #connectivity-4 .content-section {
-  padding: 25% 10% 10% 10%;
+  /* padding: 25% 10% 10% 10%; */
 }
 
 .mobile-search-users {
@@ -565,8 +629,8 @@
 }
 
 .global-connectivity #connectivity-4 .content-section p {
-  padding: 10%;
-  font-weight: 500;
+  
+  /* font-weight: 500; */
   line-height: 36px;
   font-size: 18px;
   line-height: 24px;
@@ -574,13 +638,11 @@
 }
 
 .global-connectivity #connectivity-5 .content-section {
-  padding: 10%;
+  /* padding: 10%; */
 }
 
 .global-connectivity #connectivity-5 .content-section p {
-  position: absolute;
-  top: 30%;
-  padding: 10%;
+  
   font-weight: normal;
   line-height: 36px;
   font-size: 17px;
@@ -601,7 +663,7 @@
 }
 
 .global-connectivity #connectivity-6 .content-section {
-  padding: 10%;
+  /* padding: 10%; */
 }
 
 .global-connectivity #connectivity-6 .content-section p {
@@ -611,15 +673,15 @@
 }
 
 .global-connectivity #connectivity-6 .image-section {
-  padding: 0;
+  /* padding: 0; */
 }
 
 .global-connectivity #connectivity-7 .content-section {
-  padding: 10%;
+  /* padding: 10%; */
 }
 
 .global-connectivity #connectivity-7 .content-section p {
-  padding: 20px 10% 0;
+  /* padding: 20px 10% 0; */
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
@@ -627,15 +689,15 @@
 }
 
 .global-connectivity #connectivity-7 .image-section {
-  padding: 0;
+  /* padding: 0; */
 }
 
 .global-connectivity #connectivity-8 .content-section {
-  padding: 10%;
+  /* padding: 10%; */
 }
 
 .global-connectivity #connectivity-8 .content-section p {
-  padding: 0 10%;
+  /* padding: 0 10%; */
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
@@ -643,19 +705,19 @@
 }
 
 .global-connectivity #connectivity-8 .image-section {
-  padding: 5%;
+  /* padding: 5%; */
 }
 
 .global-autonomous .content-section {
-  padding: 10%;
+  /* padding: 10%; */
 }
 
 .global-autonomous .content-section p {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
-  padding-left: 10%;
-  padding-right: 10%;
+  /* padding-left: 10%;
+  padding-right: 10%; */
 }
 
 .global-autonomous .content-section h4 {
@@ -665,11 +727,11 @@
 }
 
 .global-autonomous .content-section h2 {
-  padding: 5% 10% 2% 10%;
+  /* padding: 5% 10% 2% 10%; */
 }
 
 .global-autonomous #autonomous-1 .image-section {
-  padding: 5%;
+  /* padding: 5%; */
 }
 
 .global-autonomous #autonomous-1 .image-section h3 {
@@ -678,16 +740,16 @@
   line-height: 28px;
   color: #2266b0;
   padding: 0 5%;
-  width: 75%;
+  /* width: 75%; */
 }
 
 .global-autonomous #autonomous-3 .content-section h2 {
-  color: #2266b0;
+  color: #f7f7f7;
   padding-bottom: 2%;
 }
 
 .global-autonomous #autonomous-3 .content-section p {
-  color: #2266b0;
+  color: #f7f7f7;
 }
 
 .global-autonomous #autonomous-4 .image-section {
@@ -695,15 +757,15 @@
 }
 
 .global-autonomous #autonomous-4 .content-section {
-  padding: 10%;
+  /* padding: 10%; */
 }
 
 .global-autonomous #autonomous-4 .content-section h2 {
-  padding-top: 20%;
+  /* padding-top: 20%; */
 }
 
 .global-autonomous #autonomous-4 .content-section p {
-  padding-bottom: 10%;
+  /* padding-bottom: 10%; */
 }
 
 .global-autonomous #autonomous-5 .image-section {
@@ -711,7 +773,7 @@
 }
 
 .global-autonomous #autonomous-5 .content-section {
-  padding: 10%;
+  /* padding: 10%; */
 }
 
 .global-autonomous #autonomous-5 .content-section p {
@@ -719,7 +781,7 @@
 }
 
 .global-autonomous #autonomous-6 .content-section {
-  padding: 10%;
+  /* padding: 10%; */
 }
 
 .global-autonomous #autonomous-7 .image-section {
@@ -727,11 +789,11 @@
 }
 
 .global-autonomous #autonomous-7 .content-section {
-  padding: 10%;
+  /* padding: 10%; */
 }
 
 .global-autonomous #autonomous-7 .content-section p {
-  padding-top: 2%;
+  /* padding-top: 2%; */
 }
 
 .global-autonomous #autonomous-8 .image-section {
@@ -739,11 +801,11 @@
 }
 
 .global-autonomous #autonomous-8 .content-section {
-  padding: 10%;
+  /* padding: 10%; */
 }
 
 .global-autonomous #autonomous-8 .content-section h2 {
-  padding-bottom: 5%;
+  /* padding-bottom: 5%; */
 }
 
 .global-autonomous #autonomous-8 .content-section p {
@@ -751,15 +813,15 @@
 }
 
 .global-electrification .content-section {
-  padding: 10%;
+  /* padding: 10%; */
 }
 
 .global-electrification .content-section p {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
-  padding-left: 10%;
-  padding-right: 10%;
+  /* padding-left: 10%;
+  padding-right: 10%; */
 }
 
 .global-electrification .content-section h4 {
@@ -769,7 +831,7 @@
 }
 
 .global-electrification .content-section h2 {
-  padding: 5% 10% 2% 10%;
+  /* padding: 5% 10% 2% 10%; */
 }
 
 .global-electrification #electrification-1 .content-section {
@@ -777,7 +839,7 @@
 }
 
 .global-electrification #electrification-1 .content-section p {
-  padding-top: 30%;
+  /* padding-top: 30%; */
 }
 
 .global-electrification #electrification-1 .content-section h6 {
@@ -790,16 +852,16 @@
 }
 
 .global-electrification #electrification-2 .content-section {
-  color: #2266b0;
+  color: #f7f7f7;
   padding-top: 15%;
 }
 
 .global-electrification #electrification-2 .content-section p {
-  color: #2266b0;
+  color: #f7f7f7;
 }
 
 .global-electrification #electrification-2 .content-section h6 {
-  padding-left: 10%;
+  /* padding-left: 10%; */
 }
 
 .global-electrification #electrification-3 .content-section p {
@@ -816,7 +878,7 @@
 .global-electrification #electrification-4 .content-section p {
   font-size: 21px;
   line-height: 36px;
-  padding-top: 25%;
+  /* padding-top: 25%; */
 }
 
 .global-electrification #electrification-4 .content-section h2 {
@@ -827,7 +889,7 @@
 .global-electrification #electrification-5 .content-section p {
   font-size: 21px;
   line-height: 36px;
-  padding-top: 5%;
+  /* padding-top: 5%; */
 }
 
 .global-electrification #electrification-5 .content-section h2 {
@@ -836,15 +898,15 @@
 }
 
 .global-shared .content-section {
-  padding: 10%;
+  /* padding: 10%; */
 }
 
 .global-shared .content-section p {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
-  padding-left: 10%;
-  padding-right: 10%;
+  /* padding-left: 10%;
+  padding-right: 10%; */
 }
 
 .global-shared .content-section h4 {
@@ -854,29 +916,29 @@
 }
 
 .global-shared .content-section h2 {
-  padding: 5% 10% 2% 10%;
+  /* padding: 5% 10% 2% 10%; */
 }
 
 .global-shared #shared-1 .image-section h3 {
   font-size: 16px;
   line-height: 158.9%;
-  padding: 0 7%;
+  padding: 0 18%;
 }
 
 .global-shared #shared-3 .content-section h2 {
-  padding-top: 30%;
+  /* padding-top: 30%; */
 }
 
 #new-business .content-section {
-  padding: 10%;
+  /* padding: 10%; */
 }
 
 #new-business .content-section p {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
-  padding-left: 10%;
-  padding-right: 10%;
+  /* padding-left: 10%;
+  padding-right: 10%; */
 }
 
 #new-business .content-section h4 {
@@ -909,11 +971,11 @@
 }
 
 #new-business #business-3 .content-section p {
-  padding-top: 5%;
+  /* padding-top: 5%; */
 }
 
 #new-business #business-3 .content-section h2 {
-  padding: 10% 10% 0 10%;
+  /* padding: 10% 10% 0 10%; */
   font-weight: 600;
 }
 
@@ -932,7 +994,7 @@
 }
 
 #new-business #business-3 .h2-merge {
-  padding: 10%;
+  /* padding: 10%; */
   font-size: 21px;
   line-height: 30px;
   font-style: italic;
@@ -959,13 +1021,13 @@
 }
 
 #new-business #business-5 .content-section p {
-  padding-top: 5%;
+  /* padding-top: 5%; */
   font-size: 21px;
   line-height: 36px;
 }
 
 #new-business #business-5 .content-section h2 {
-  padding: 10% 10% 5%;
+  /* padding: 10% 10% 5%; */
   font-size: 21px;
   line-height: 36px;
 }
@@ -976,7 +1038,7 @@
 }
 
 #new-business #business-6 .content-section p {
-  padding-top: 10%;
+  /* padding-top: 10%; */
   font-weight: bold;
   font-size: 24px;
   line-height: 33px;
@@ -994,7 +1056,7 @@
 }
 
 #new-business #business-7 .content-section p {
-  padding-top: 10%;
+  /* padding-top: 10%; */
   font-size: 21px;
   line-height: 33px;
 }
@@ -1147,10 +1209,10 @@
   line-height: 19px;
   display: inline-block;
   color: #2266b0;
-  position: relative;
+  position: absolute;
   width: 160px;
   left: 15%;
-  top: 200px;
+  top: 140px;
 }
 
 .text2 {
@@ -1160,10 +1222,10 @@
   line-height: 19px;
   display: inline-block;
   color: #2266b0;
-  position: relative;
+  position: absolute;
   width: 150px;
   left: 15%;
-  bottom: 200px;
+  bottom: 150px;
 }
 
 .nav-item.active {
@@ -1219,7 +1281,7 @@
   line-height: 26px;
   color: #2266b0;
   display: block;
-  width: 50%;
+  /* width: 50%; */
 }
 
 .span4 {
@@ -1227,10 +1289,10 @@
   font-size: 18px;
   line-height: 24px;
   color: #2266b0;
-  width: 60%;
+  /* width: 60%; */
   display: inline-block;
   padding-top: 2%;
-  padding-bottom: 10%;
+  padding-bottom: 8%;
 }
 
 #scrollTopCar {

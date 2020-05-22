@@ -1,4 +1,103 @@
-.section-title{
+.pt-20 {
+  padding-top: 20px !important;
+}
+.pt-60 {
+  padding-top: 60px !important;
+}
+.pt-80 {
+  padding-top: 80px !important;
+}
+.pt-100 {
+  padding-top: 100px !important;
+}
+.pt-120 {
+  padding-top: 120px !important;
+}
+
+.pt-140 {
+  padding-top: 140px !important;
+}
+
+.pt-160 {
+  padding-top: 160px !important;
+}
+
+.pt-180 {
+  padding-top: 180px !important;
+}
+
+.pt-200 {
+  padding-top: 200px !important;
+}
+
+.pt-220 {
+  padding-top: 220px !important;
+}
+
+.pt-250 {
+  padding-top: 250px !important;
+}
+
+.pb-20 {
+  padding-bottom: 20px !important;
+}
+
+.pt-170 {
+  padding-top: 170px !important;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.para-cont {
+  font-size: 18px !important;
+  padding: 0;
+  margin: 0;
+}
+
+.common-section {
+  padding: 100px 0 0 0;
+}
+
+.image-section {
+  padding: 40px;
+}
+
+.cont-sec {
+  padding: 50px 100px;
+}
+
+.cc-image {
+  max-height: 500px;
+  width: auto !important;
+}
+
+.conectivity-h2 {
+  padding: 0 !important;
+}
+
+.connectivity-paragraph h4,
+.connectivity-paragraph p {
+  padding: 0 !important;
+}
+
+.imgsec-h4 {
+  width: inherit !important;
+}
+
+.conn-smart-city .cont-para,
+.connec-accel .cont-para,
+.connectivity-iot .para-cont {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.fntweight-500{
+  font-weight: 500;
+}
+
+.section-title {
   max-width: 80%;
   font-weight: 500;
   font-style: normal;
@@ -11,14 +110,42 @@
   display: inline-block;
 }
 
-.section-title span.split-title{
+.section-main-title {
+  color: #fff;
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+.section-title span.split-title {
   display: block;
+}
+
+.conn-ai-intelligent{
+  position: relative;
+}
+
+.mass-closures{
+  font-weight: 900;
+  font-size: 16px;
 }
 
 .section-title span.bold-txt {
   font-weight: 900;
 }
 
+.txtclr-white{
+  color: #f7f7f7;
+}
+
 .common-tab-section .car-global-header {
   padding: 130px 0 40px 0;
+}
+
+.cont-height500{
+  min-height: 500px;
+}
+
+.txt-indent{
+  padding-left: 60px;
 }
