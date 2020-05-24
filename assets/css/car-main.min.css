@@ -31,9 +31,7 @@
   background-image: url("../images/cc/TB_CC-micro-trends-NewBusinessModel/TB_CC-micro-trends-NewBusinessModel-banner.png");
 }
 
-.bg.car-connected-bg8 {
-  background-image: url("../images/cc/TB_CC-trendsupdate/TB_CC-trendsupdate-banner.png");
-}
+
 
 .bg.car-closer-bg {
   background-image: url("../images/cc/TB_CC-micro-trends-main-baner.png");
@@ -131,14 +129,7 @@
   background-color: #f7f7f7;
 }
 
-.car-page .car-trends-section {
-  /* padding-top: 97px; */
-  background-image: url(../images/hcs/bg-pattern-left.jpg),
-    url(../images/hcs/bg-pattern-right.jpg);
-  background-position: -50% 0, right top 85%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+
 
 #showDown {
   cursor: pointer;
@@ -314,34 +305,6 @@
   color: #f7f7f7;
   vertical-align: top;
   min-width: 175px;
-}
-
-.common-tab-section .car-global-header .selected-heading {
-  background-color: #00a1e8;
-  color: #fff;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 0.5% 1%;
-  border-radius: 10px;
-  z-index: 6;
-  position: relative;
-}
-
-.common-tab-section .car-global-header .heading-line {
-  background-color: #2266b0;
-  height: 1px;
-  display: block;
-  margin-left: 1%;
-  z-index: 5;
-  position: relative;
-  bottom: 12px;
-}
-
-.common-tab-section .car-global-header .global-title {
-  border-bottom: 1px solid #2266b0;
 }
 
 .common-tab-section .car-global-header .global-title h1.w70 {
@@ -1072,37 +1035,15 @@
   line-height: 33px;
 }
 
-#caseSection {
-  padding-top: 15%;
-  color: #fff;
-  margin-bottom: 100px;
-}
 
-#caseSection h2 {
-  font-weight: bold;
-  font-size: 65px;
-  line-height: 75px;
-}
 
-#caseSection h2:first-child {
-  color: #5acae6;
-}
 
-#caseSection h4 {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.08em;
-  color: #f7f7f7;
-  padding-top: 7%;
-  width: 60%;
-}
 
-#caseSection img {
-  width: 50px;
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-}
+
+
+
+
+
 
 .common-case-section .trend-update-img {
   background-color: #fff;
@@ -1113,79 +1054,27 @@
   width: 90%;
 }
 
-.common-case-section .trend-case {
-  position: relative;
-  z-index: 1;
-  /* margin-top: 10%; */
-  background-color: #fff;
-}
 
-.common-case-section .trend-case .case-bg h1 {
-  font-weight: bold;
-  font-size: 122px;
-  line-height: 143px;
-  color: #f7f7f7;
-  background-color: #5acae6;
-  padding: 20% 20% 0;
-  margin: 0;
-}
 
-.common-case-section .trend-case .case-bg h1 span {
-  color: #2266b0;
-}
 
-.common-case-section .trend-case .case-bg p {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 28px;
-  letter-spacing: 0.08em;
-  color: #f7f7f7;
-  background-color: #5acae6;
-  padding: 10px 20% 20%;
-}
 
-.common-case-section .trend-case .case-bg .pattern-image {
-  position: absolute;
-  bottom: -10%;
-  left: -10%;
-  z-index: -1;
-}
 
-.common-case-section .trend-case img {
-  width: 100%;
-}
 
-.common-case-section .trend-case .container {
-  padding-top: 5%;
-}
 
-.common-case-section .trend-case .container p {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-  color: #2266b0;
-}
 
-.common-case-section .trend-case .single-letter {
-  font-weight: 900;
-  font-size: 71.02px;
-  line-height: 83px;
-  color: #5bcae6;
-}
 
-.common-case-section .trend-case .line {
-  height: 0.2px;
-  background-color: #2266b0;
-  display: block;
-}
 
-.common-case-section .trend-case .letter-summary {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  color: #2266b0;
-  padding-right: 4%;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 #marketSection .market-trend-content {
   position: absolute;
@@ -1412,36 +1301,13 @@
 }
 
 /* CASE SECTION STYLES */
-a#txt-moveToConnectivity,
-a#txt-moveToAutonomous,
-a#txt-moveToMaas,
-a#txt-moveToElectrification {
-  color: #2266b0;
-  text-decoration: none;
-  border-bottom: solid 1px #2266b0;
-}
 
-#moveToNewbm {
-  border-bottom: solid 1px #2266b0;
-  cursor: pointer;
-}
 
-a#txt-moveToConnectivity:hover,
-a#txt-moveToAutonomous:hover,
-a#txt-moveToMaas:hover,
-a#txt-moveToElectrification:hover {
-  color: #2266b0;
-}
 
-a#txt-moveToConnectivity span,
-a#txt-moveToAutonomous span,
-a#txt-moveToMaas span,
-a#txt-moveToElectrification span {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 22px;
-  line-height: 24px;
-}
+
+
+
+
 
 /* CASE SECTION END */
 
@@ -1615,9 +1481,7 @@ a#txt-moveToElectrification span {
 
 /* SUMMARY SECTION END */
 
-.uppercase-txt {
-  text-transform: uppercase;
-}
+
 
 .cc-summery-h1 {
   font-style: normal;
@@ -1643,3 +1507,5 @@ a#txt-moveToElectrification span {
 
   color: #5acae6 !important;
 }
+
+

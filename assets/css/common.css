@@ -1,15 +1,202 @@
+/* SECTION TITLE STYLES START */
+section {
+  position: relative;
+}
+
+.trends-section .global-header {
+  padding: 130px 0 40px 0;
+}
+
+.trends-section .global-header .selected-heading {
+  background-color: #00a1e8;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.5% 1%;
+  border-radius: 10px;
+  z-index: 6;
+  position: relative;
+}
+
+.trends-section .global-header .heading-line {
+  background-color: #2266b0;
+  height: 1px;
+  display: block;
+  margin-left: 1%;
+  z-index: 5;
+  position: relative;
+  bottom: 12px;
+}
+
+.trends-section .global-header .global-title {
+  border-bottom: 1px solid #2266b0;
+}
+
+.trends-section .global-header .global-subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2266b0;
+  padding-top: 20px;
+}
+
+/* SECTION TITLE STYLES END */
+
+.source-text {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  color: #a9a9a9;
+}
+
+.fnt-12px {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #6d6d6d;
+}
+
+.fnt-14px-900 {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 21px;
+  letter-spacing: 0.08em;
+  padding: 0;
+  margin: 0;
+}
+
+.fnt-15px-900 {
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 21px;
+  letter-spacing: 0.08em;
+  padding: 0;
+  margin: 0;
+}
+
+.fnt-16px-900 {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 21px;
+  letter-spacing: 0.08em;
+  padding: 0;
+  margin: 0;
+}
+
+.fnt-16px {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  padding: 0;
+  margin: 0;
+}
+
+.fnt-18px-900 {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 21px;
+  letter-spacing: 0.08em;
+  padding: 0;
+  margin: 0;
+}
+
+.fnt-18px {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.08em;
+  padding: 0;
+  margin: 0;
+}
+
+.fnt-21px-900 {
+  font-size: 21px;
+  line-height: 36px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  padding: 0;
+  margin: 0;
+}
+
+.fnt-21px {
+  font-size: 21px;
+  line-height: 36px;
+  letter-spacing: 0.08em;
+  padding: 0;
+  margin: 0;
+}
+
+.fnt-24px-900 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.1em;
+  padding: 0;
+  margin: 0;
+}
+
+.fnt-30px-900 {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.1em;
+  padding: 0;
+  margin: 0;
+}
+
+.fnt-12px {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  padding: 0;
+  margin: 0;
+}
+
+.clr-blue1 {
+  color: #2266b0;
+}
+
+.bgclr-blue1 {
+  background: #2266b0;
+}
+
+.bgclr-blue2 {
+  background: #00a1e8;
+}
+
+.bgclr-grey1 {
+  background: #f0f0f0;
+}
+
+.clr-grey1 {
+  color: #6d6d6d;
+}
+
+.imgwidth-100-per {
+  width: 100%;
+}
+
 .pt-20 {
   padding-top: 20px !important;
 }
+
 .pt-60 {
   padding-top: 60px !important;
 }
+
 .pt-80 {
   padding-top: 80px !important;
 }
+
 .pt-100 {
   padding-top: 100px !important;
 }
+
 .pt-120 {
   padding-top: 120px !important;
 }
@@ -46,14 +233,47 @@
   padding-top: 170px !important;
 }
 
+.pl-100px {
+  padding-left: 100px;
+}
+
+.pr-100px {
+  padding-right: 100px;
+}
+
 .mb-40 {
   margin-bottom: 40px;
 }
 
 .para-cont {
   font-size: 18px !important;
+  line-height: 24px;
   padding: 0;
   margin: 0;
+}
+
+p.cont-title {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  margin: 0;
+}
+
+p.cont-subtitle {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.07em;
+  margin: 0;
+}
+
+.lineheight-36px {
+  line-height: 36px;
+}
+
+.fntweight-500 {
+  font-weight: 500;
 }
 
 .common-section {
@@ -70,7 +290,7 @@
 
 .cc-image {
   max-height: 500px;
-  width: auto !important;
+  width: auto;
 }
 
 .conectivity-h2 {
@@ -93,7 +313,7 @@
   padding-right: 0 !important;
 }
 
-.fntweight-500{
+.fntweight-500 {
   font-weight: 500;
 }
 
@@ -121,11 +341,11 @@
   display: block;
 }
 
-.conn-ai-intelligent{
+.conn-ai-intelligent {
   position: relative;
 }
 
-.mass-closures{
+.mass-closures {
   font-weight: 900;
   font-size: 16px;
 }
@@ -134,18 +354,16 @@
   font-weight: 900;
 }
 
-.txtclr-white{
+.txtclr-white {
   color: #f7f7f7;
 }
 
-.common-tab-section .car-global-header {
-  padding: 130px 0 40px 0;
-}
 
-.cont-height500{
+
+.cont-height500 {
   min-height: 500px;
 }
 
-.txt-indent{
+.txt-indent {
   padding-left: 60px;
 }

@@ -1,0 +1,1265 @@
+/* GLOBAL OUTLOOK SECTION 1 STYLES START */
+.glbloutlook-section1 .glbloutlook-sec1 {
+  min-height: 650px;
+  background: #ffffff;
+  position: relative;
+}
+
+.glbloutlook-section1 .glbloutlook-sec1 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 42%;
+  text-align: left;
+  color: #f7f7f7;
+  font-size: 18px;
+}
+
+.glbloutlook-section1 .glbloutlook-sec1 .lft-column {
+  position: absolute;
+  left: 0;
+  width: 58%;
+  padding: 50px;
+}
+
+/* GLOBAL OUTLOOK SECTION 1 STYLES END */
+
+
+/* GLOBAL OUTLOOK SECTION 2 STYLES START */
+.glbloutlook-section2 .glbloutlook-sec2 {
+  min-height: 600px;
+  background: #ffffff;
+  position: relative;
+}
+
+.glbloutlook-section2 .glbloutlook-sec2 .lft-column {
+  position: absolute;
+  left: 0;
+  width: 41%;
+  color: #f7f7f7;
+}
+
+.glbloutlook-section2 .glbloutlook-sec2 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 59%;
+  text-align: left;
+  color: #f7f7f7;
+  font-size: 18px;
+  padding: 50px;
+}
+
+/* GLOBAL OUTLOOK SECTION 2 STYLES END */
+
+
+/* GLOBAL OUTLOOK SECTION 3 STYLES START */
+.glbloutlook-section3 .glbloutlook-sec3 {
+  min-height: 550px;
+  background: #ffffff;
+  position: relative;
+}
+
+.glbloutlook-section3 .glbloutlook-sec3 .lft-column {
+  position: absolute;
+  left: 0;
+  width: 58%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+.glbloutlook-section3 .glbloutlook-sec3 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 42%;
+  text-align: left;
+  color: #f7f7f7;
+  font-size: 18px;
+}
+
+/* GLOBAL OUTLOOK SECTION 3 STYLES END */
+
+/* GLOBAL OUTLOOK SECTION 4 STYLES START */
+.glbloutlook-section4 .glbloutlook-sec4 {
+  min-height: 620px;
+  background: #ffffff;
+  position: relative;
+}
+
+.glbloutlook-section4 .glbloutlook-sec4 .single-column {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+/* GLOBAL OUTLOOK SECTION 4 STYLES END */
+
+
+
+/* TRENDS IMPACTING MAIN SECTION START */
+.bg {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#caseSection h2:first-child {
+  color: #5acae6;
+}
+
+#caseSection h2 {
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 75px;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+#caseSection {
+  padding-top: 15%;
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+.bg.car-connected-bg8 {
+  background-image: url("../images/cc/TB_CC-trendsupdate/TB_CC-trendsupdate-banner.png");
+}
+
+.common-image-bg .market-trend-content {
+  margin: 0 10%;
+}
+
+.common-image-bg .market-trend-content .hr-line {
+  height: 1px;
+  display: block;
+  background-color: #5bcae6;
+  position: relative;
+  z-index: 1;
+  bottom: 2px;
+}
+
+#caseSection h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.08em;
+  color: #f7f7f7;
+  padding-top: 7%;
+  width: 60%;
+}
+
+#caseSection img {
+  width: 50px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+/* TRENDS IMPACTING MAIN SECTION END */
+
+
+
+
+
+
+/* CASE STYLES START */
+.car-page .car-trends-section {
+  background-image: url(../images/hcs/bg-pattern-left.jpg),
+    url(../images/hcs/bg-pattern-right.jpg);
+  background-position: -50% 0, right top 85%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.common-case-section .trend-case {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.common-case-section .trend-case .case-bg h1 {
+  font-weight: bold;
+  font-size: 122px;
+  line-height: 143px;
+  color: #f7f7f7;
+  background-color: #5acae6;
+  padding: 20% 20% 0;
+  margin: 0;
+}
+
+.common-case-section .trend-case .case-bg h1 span {
+  color: #2266b0;
+}
+
+.common-case-section .trend-case .case-bg p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.08em;
+  color: #f7f7f7;
+  background-color: #5acae6;
+  padding: 10px 20% 20%;
+}
+
+.common-case-section .trend-case .case-bg .pattern-image {
+  position: absolute;
+  bottom: -10%;
+  left: -10%;
+  z-index: -1;
+}
+
+.common-case-section .trend-case img {
+  width: 100%;
+}
+
+.common-case-section .trend-case .container {
+  padding-top: 5%;
+}
+
+.common-case-section .trend-case .single-letter {
+  font-weight: 900;
+  font-size: 71.02px;
+  line-height: 83px;
+  color: #5bcae6;
+}
+
+.common-case-section .trend-case .line {
+  height: 0.2px;
+  background-color: #2266b0;
+  display: block;
+}
+
+.common-case-section .trend-case .letter-summary {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2266b0;
+  padding-right: 4%;
+}
+
+.common-case-section .trend-case .container p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2266b0;
+}
+
+#moveToNewbm {
+  border-bottom: solid 1px #2266b0;
+  cursor: pointer;
+}
+
+.uppercase-txt {
+  text-transform: uppercase;
+}
+
+a#txt-moveToConnectivity,
+a#txt-moveToAutonomous,
+a#txt-moveToMaas,
+a#txt-moveToElectrification {
+  color: #2266b0;
+  text-decoration: none;
+  border-bottom: solid 1px #2266b0;
+}
+
+a#txt-moveToConnectivity:hover,
+a#txt-moveToAutonomous:hover,
+a#txt-moveToMaas:hover,
+a#txt-moveToElectrification:hover {
+  color: #2266b0;
+}
+
+a#txt-moveToConnectivity span,
+a#txt-moveToAutonomous span,
+a#txt-moveToMaas span,
+a#txt-moveToElectrification span {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+/* CASE STYLES END */
+
+
+
+/*  CONNECTIVITY SECTION 1 STYLES START */
+.connectivity-section1 .connectivity-sec1 {
+  min-height: 500px;
+  background: #ffffff;
+  position: relative;
+}
+
+.connectivity-section1 .connectivity-sec1 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 50%;
+  color: #f7f7f7;
+}
+
+.connectivity-section1 .connectivity-sec1 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  color: #f7f7f7;
+  font-size: 18px;
+}
+
+/*  CONNECTIVITY SECTION 1 STYLES END */
+
+
+/*  CONNECTIVITY SECTION 2 STYLES START */
+.connectivity-section2 .connectivity-sec2 {
+  min-height: 600px;
+  background: #ffffff;
+  position: relative;
+}
+
+.connectivity-section2 .connectivity-sec2 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 58%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+.connectivity-section2 .connectivity-sec2 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  color: #f7f7f7;
+  font-size: 18px;
+}
+
+/*  CONNECTIVITY SECTION 2 STYLES END */
+
+
+/*  CONNECTIVITY SECTION 3 STYLES START */
+.connectivity-section3 .connectivity-sec3 {
+  min-height: 600px;
+  background: #ffffff;
+  position: relative;
+}
+
+.connectivity-section3 .connectivity-sec3 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 42%;
+  color: #f7f7f7;
+}
+
+.connectivity-section3 .connectivity-sec3 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 58%;
+  color: #f7f7f7;
+  font-size: 18px;
+}
+
+/*  CONNECTIVITY SECTION 3 STYLES END */
+
+
+/*  CONNECTIVITY SECTION 4 STYLES START */
+.connectivity-section4 .connectivity-sec4 {
+  min-height: 600px;
+  background: #ffffff;
+  position: relative;
+}
+
+.connectivity-section4 .connectivity-sec4 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 58%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+.connectivity-section4 .connectivity-sec4 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  color: #f7f7f7;
+  font-size: 18px;
+}
+
+/*  CONNECTIVITY SECTION 4 STYLES END */
+
+
+/*  CONNECTIVITY SECTION 5 STYLES START */
+.connectivity-section5 .connectivity-sec5 {
+  min-height: 500px;
+  background: #ffffff;
+  position: relative;
+}
+
+.connectivity-section5 .connectivity-sec5 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 58%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+.connectivity-section5 .connectivity-sec5 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  color: #f7f7f7;
+  font-size: 18px;
+}
+
+/*  CONNECTIVITY SECTION 5 STYLES END */
+
+
+
+/*  CONNECTIVITY SECTION 6 STYLES START */
+.connectivity-section6 .connectivity-sec6 {
+  min-height: 500px;
+  background: #ffffff;
+  position: relative;
+}
+
+.connectivity-section6 .connectivity-sec6 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 58%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+.connectivity-section6 .connectivity-sec6 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  color: #f7f7f7;
+  font-size: 18px;
+}
+
+/*  CONNECTIVITY SECTION 6 STYLES END */
+
+
+/*  CONNECTIVITY SECTION 7 STYLES START */
+.connectivity-section7 .connectivity-sec7 {
+  min-height: 550px;
+  background: #ffffff;
+  position: relative;
+}
+
+.connectivity-section7 .connectivity-sec7 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 42%;
+  color: #f7f7f7;
+}
+
+.connectivity-section7 .connectivity-sec7 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 58%;
+  color: #f7f7f7;
+  font-size: 18px;
+  padding: 50px;
+}
+
+/*  CONNECTIVITY SECTION 7 STYLES END */
+
+
+/*  CONNECTIVITY SECTION 8 STYLES START */
+.connectivity-section8 .connectivity-sec8 {
+  min-height: 600px;
+  background: #ffffff;
+  position: relative;
+}
+
+.connectivity-section8 .connectivity-sec8 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 58%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+.connectivity-section8 .connectivity-sec8 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  color: #f7f7f7;
+  font-size: 18px;
+
+}
+
+/*  CONNECTIVITY SECTION 8 STYLES END */
+
+
+
+/* AUTONOMOUS SECTION 1 STYLES START */
+.autonomous-section1 .autonomous-sec1 {
+  min-height: 580px;
+  background: #ffffff;
+  position: relative;
+}
+
+.autonomous-section1 .autonomous-sec1 .single-column {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+/* AUTONOMOUS SECTION 1 STYLES END */
+
+
+/* AUTONOMOUS SECTION 2 STYLES START */
+.autonomous-section2 .autonomous-sec2 {
+  min-height: 580px;
+  background: #ffffff;
+  position: relative;
+}
+
+.autonomous-section2 .autonomous-sec2 .single-column {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+/* AUTONOMOUS SECTION 2 STYLES END */
+
+
+
+
+/*  AUTONOMOUS SECTION 3 STYLES START */
+.autonomous-section3 .autonomous-sec3 {
+  min-height: 550px;
+  background: #ffffff;
+  position: relative;
+}
+
+.autonomous-section3 .autonomous-sec3 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 50%;
+  color: #f7f7f7;
+}
+
+.autonomous-section3 .autonomous-sec3 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  color: #f7f7f7;
+  font-size: 18px;
+  padding: 50px;
+}
+
+/*  AUTONOMOUS SECTION 3 STYLES END */
+
+
+/* AUTONOMOUS SECTION 4 STYLES START */
+.autonomous-section4 .autonomous-sec4 {
+  min-height: 500px;
+  background: #F5F6F7;
+  position: relative;
+}
+
+.autonomous-section4 .autonomous-sec4 .lft-column {
+  position: absolute;
+  left: 0;
+  width: 58%;
+  font-size: 24px;
+  line-height: 155.19%;
+  font-weight: bold;
+  background: url(../images/cc/TB_CC-micro-trends-Autonomous/TB_CC-micro-trends-Autonomous-01.png) center center no-repeat;
+  background-size: cover;
+}
+
+.autonomous-section4 .autonomous-sec4 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 42%;
+  text-align: left;
+  color: #f7f7f7;
+  background: #00a1e8;
+  font-size: 18px;
+}
+
+.autonomous-sec4 .rgt-column .mlti-exp-list li {
+  padding-bottom: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 155.19%;
+  color: #FFFFFF;
+}
+
+/* AUTONOMOUS SECTION 4 STYLES END */
+
+
+/* AUTONOMOUS SECTION 5 STYLES START */
+.autonomous-section5 .autonomous-sec5 {
+  min-height: 550px;
+  background: #F5F6F7;
+  position: relative;
+}
+
+.autonomous-section5 .autonomous-sec5 .lft-column {
+  position: absolute;
+  left: 0;
+  width: 41%;
+  font-size: 24px;
+  line-height: 155.19%;
+  font-weight: bold;
+  background: url(../images/cc/TB_CC-micro-trends-Autonomous/TB_CC-micro-trends-Autonomous-02.png) center center no-repeat;
+  background-size: cover;
+}
+
+.autonomous-section5 .autonomous-sec5 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 59%;
+  text-align: left;
+  color: #f7f7f7;
+  background: #00a1e8;
+  font-size: 18px;
+}
+
+.autonomous-sec5 .rgt-column .mlti-exp-list li {
+  padding-bottom: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 155.19%;
+  color: #FFFFFF;
+}
+
+/* AUTONOMOUS SECTION 5 STYLES END */
+
+
+
+
+
+/*  AUTONOMOUS SECTION 6 STYLES START */
+.autonomous-section6 .autonomous-sec6 {
+  min-height: 550px;
+  background: #ffffff;
+  position: relative;
+}
+
+.autonomous-section6 .autonomous-sec6 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 42%;
+  color: #f7f7f7;
+}
+
+.autonomous-section6 .autonomous-sec6 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 58%;
+  color: #f7f7f7;
+  font-size: 18px;
+  padding: 50px;
+}
+
+/*  AUTONOMOUS SECTION 6 STYLES END */
+
+
+/* AUTONOMOUS SECTION 7 STYLES START */
+.autonomous-section7 .autonomous-sec7 {
+  min-height: 500px;
+  background: #F5F6F7;
+  position: relative;
+}
+
+.autonomous-section7 .autonomous-sec7 .lft-column {
+  position: absolute;
+  left: 0;
+  width: 58%;
+  font-size: 24px;
+  line-height: 155.19%;
+  font-weight: bold;
+  background: url(../images/cc/TB_CC-micro-trends-Autonomous/TB_CC-micro-trends-Autonomous-03.png) center center no-repeat;
+  background-size: cover;
+}
+
+.autonomous-section7 .autonomous-sec7 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 42%;
+  text-align: left;
+  color: #f7f7f7;
+  background: #00a1e8;
+  font-size: 18px;
+}
+
+
+/* AUTONOMOUS SECTION 7 STYLES END */
+
+
+
+
+/* AUTONOMOUS SECTION 8 STYLES START */
+.autonomous-section8 .autonomous-sec8 {
+  min-height: 550px;
+  background: #F5F6F7;
+  position: relative;
+}
+
+.autonomous-section8 .autonomous-sec8 .lft-column {
+  position: absolute;
+  left: 0;
+  width: 58%;
+  color: #fff;
+}
+
+.autonomous-section8 .autonomous-sec8 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 42%;
+  background: url(../images/cc/TB_CC-micro-trends-Autonomous/TB_CC-micro-trends-Autonomous-04.png) center top no-repeat;
+  background-size: cover;
+}
+
+
+/* AUTONOMOUS SECTION 8 STYLES END */
+
+
+
+
+
+
+
+/* SHARED MAAS SECTION 1 STYLES START */
+.sharedmaas-section1 .sharedmaas-sec1 {
+  min-height: 630px;
+  background: #ffffff;
+  position: relative;
+}
+
+.sharedmaas-section1 .sharedmaas-sec1 .single-column {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+/* SHARED MAAS SECTION 1 STYLES END */
+
+
+
+/*  SHARED MAAS SECTION 2 STYLES START */
+.sharedmaas-section2 .sharedmaas-sec2 {
+  min-height: 600px;
+  background: #ffffff;
+  position: relative;
+}
+
+.sharedmaas-section2 .sharedmaas-sec2 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 58%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+.sharedmaas-section2 .sharedmaas-sec2 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  color: #f7f7f7;
+
+}
+
+/*  SHARED MAAS SECTION 2 STYLES END */
+
+
+/*  SHARED MAAS SECTION 3 STYLES START */
+.sharedmaas-section3 .sharedmaas-sec3 {
+  min-height: 550px;
+  background: #ffffff;
+  position: relative;
+}
+
+.sharedmaas-section3 .sharedmaas-sec3 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 58%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+.sharedmaas-section3 .sharedmaas-sec3 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  color: #f7f7f7;
+
+}
+
+/*  SHARED MAAS SECTION 3 STYLES END */
+
+
+
+/* SHARED MAAS SECTION 4 STYLES START */
+.sharedmaas-section4 .sharedmaas-sec4 {
+  min-height: 630px;
+  background: #ffffff;
+  position: relative;
+}
+
+.sharedmaas-section4 .sharedmaas-sec4 .single-column {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+/* SHARED MAAS SECTION 1 STYLES END */
+
+
+
+/*  ELECTRIFICATION SECTION 1 STYLES START */
+.electrification-section1 .electrification-sec1 {
+  min-height: 600px;
+  background: #ffffff;
+  position: relative;
+}
+
+.electrification-section1 .electrification-sec1 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 58%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+.electrification-section1 .electrification-sec1 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  color: #f7f7f7;
+
+}
+
+/*  ELECTRIFICATION SECTION 1 STYLES END */
+
+
+/*  ELECTRIFICATION SECTION 2 STYLES START */
+.electrification-section2 .electrification-sec2 {
+  min-height: 500px;
+  background: #ffffff;
+  position: relative;
+}
+
+.electrification-section2 .electrification-sec2 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 50%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+.electrification-section2 .electrification-sec2 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  color: #f7f7f7;
+
+}
+
+/*  ELECTRIFICATION SECTION 2 STYLES END */
+
+
+/*  ELECTRIFICATION SECTION 3 STYLES START */
+.electrification-section3 .electrification-sec3 {
+  min-height: 550px;
+  background: #ffffff;
+  position: relative;
+}
+
+.electrification-section3 .electrification-sec3 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 58%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+.electrification-section3 .electrification-sec3 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  color: #f7f7f7;
+}
+
+/*  ELECTRIFICATION SECTION 3 STYLES END */
+
+
+
+/*  ELECTRIFICATION SECTION 4 STYLES START */
+.electrification-section4 .electrification-sec4 {
+  min-height: 550px;
+  background: #ffffff;
+  position: relative;
+}
+
+.electrification-section4 .electrification-sec4 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 42%;
+  color: #f7f7f7;
+}
+
+.electrification-section4 .electrification-sec4 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 58%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+/*  ELECTRIFICATION SECTION 4 STYLES END */
+
+
+
+/*  ELECTRIFICATION SECTION 5 STYLES START */
+.electrification-section5 .electrification-sec5 {
+  min-height: 550px;
+  background: #ffffff;
+  position: relative;
+}
+
+.electrification-section5 .electrification-sec5 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 58%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+.electrification-section5 .electrification-sec5 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  color: #f7f7f7;
+}
+
+/*  ELECTRIFICATION SECTION 5 STYLES END */
+
+
+
+/*  ELECTRIFICATION SECTION 6 STYLES START */
+.electrification-section6 .electrification-sec6 {
+  min-height: 550px;
+  background: #ffffff;
+  position: relative;
+}
+
+.electrification-section6 .electrification-sec6 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 58%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+.electrification-section6 .electrification-sec6 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  color: #f7f7f7;
+}
+
+/*  ELECTRIFICATION SECTION 6 STYLES END */
+
+
+
+/*  NEW BUSINESS MODELS SECTION 1 STYLES START */
+.newbusimodels-section1 .newbusimodels-sec1 {
+  min-height: 600px;
+  background: #ffffff;
+  position: relative;
+}
+
+.newbusimodels-section1 .newbusimodels-sec1 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 58%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+.newbusimodels-section1 .newbusimodels-sec1 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  color: #f7f7f7;
+  font-size: 21px;
+  font-weight: normal;
+  line-height: 33px;
+}
+/*  NEW BUSINESS MODELS SECTION 1 STYLES END */
+
+/*  NEW BUSINESS MODELS SECTION 2 STYLES START */
+.newbusimodels-section2 .newbusimodels-sec2 {
+  min-height: 450px;
+  background: #ffffff;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.newbusimodels-section2 .newbusimodels-sec2 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 50%;
+  padding: 50px;
+}
+
+.forbdr-rgt::after{
+  content: '';
+  position: absolute;
+  right: -10px;
+  top: 50px;
+  bottom: 50px;
+  border-right: solid 1px #2266B0;
+}
+
+.newbusimodels-section2 .newbusimodels-sec2 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  padding:50px;
+}
+
+/*  NEW BUSINESS MODELS SECTION 2 STYLES END */
+
+
+
+/*  NEW BUSINESS MODELS SECTION 3 STYLES START */
+.newbusimodels-section3 .newbusimodels-sec3 {
+  min-height: 550px;
+  background: #ffffff;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.newbusimodels-section3 .newbusimodels-sec3 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 58%;
+}
+
+.newbusimodels-section3 .newbusimodels-sec3 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  color: #fff;
+}
+
+/*  NEW BUSINESS MODELS SECTION 3 STYLES END */
+
+
+/*  NEW BUSINESS MODELS SECTION 4 STYLES START */
+.newbusimodels-section4 .newbusimodels-sec4 {
+  min-height: 550px;
+  background: #ffffff;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.newbusimodels-section4 .newbusimodels-sec4 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 42%;
+  color: #fff;
+}
+
+.newbusimodels-section4 .newbusimodels-sec4 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 58%;
+}
+
+/*  NEW BUSINESS MODELS SECTION 4 STYLES END */
+
+
+/*  NEW BUSINESS MODELS SECTION 5 STYLES START */
+.newbusimodels-section5 .newbusimodels-sec5 {
+  min-height: 600px;
+  background: #ffffff;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.newbusimodels-section5 .newbusimodels-sec5 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 58%;
+  color: #fff;
+  padding: 50px;
+}
+
+.newbusimodels-section5 .newbusimodels-sec5 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  color: #fff;
+}
+
+/*  NEW BUSINESS MODELS SECTION 5 STYLES END */
+
+
+/*  NEW BUSINESS MODELS SECTION 6 STYLES START */
+.newbusimodels-section6 .newbusimodels-sec6 {
+  min-height: 500px;
+  background: #ffffff;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.newbusimodels-section6 .newbusimodels-sec6 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 42%;
+  color: #fff;
+}
+
+.newbusimodels-section6 .newbusimodels-sec6 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 58%;
+  padding: 50px;
+}
+
+/*  NEW BUSINESS MODELS SECTION 6 STYLES END */
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .section-title{
+    font-size: 30px !important;
+    line-height: 34px !important;
+  }
+  .cont-sec{
+    padding: 50px !important;
+  }
+  .section-title span.split-title{
+    display: inline !important;
+  }
+
+  .newbusimodels-section2 .newbusimodels-sec2{
+    min-height: 400px;
+  }
+}
