@@ -96,6 +96,14 @@
   transition: all 0.3s ease-in-out;
 }
 
+.glbl-auto-trends .trends-list-item li .gaobx-rt-arrow {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  right: 16px;
+  bottom: 16px;
+}
+
 .glbl-auto-trends .trends-list-item li:hover {
   background-color: #00a1e8;
 }
@@ -1450,7 +1458,7 @@
 
 .cc-summary-division .trends-card .cont {
   width: 100%;
-  padding: 10px 30px;
+  padding: 30px 30px 10px 30px;
 }
 
 .cc-summary-division .trends-card .cont span {

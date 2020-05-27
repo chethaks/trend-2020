@@ -179,6 +179,14 @@ html {
   transition: all 0.3s ease-in-out;
 }
 
+.trends-list-item li .trends-card-arrow{
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  height: 18px;
+  width: 18px;
+}
+
 .trends-list-item li:hover {
   background-color: #00a1e8;
 }
@@ -189,7 +197,7 @@ html {
 
 .trends-list-item li span {
   position: absolute;
-  bottom: 25px;
+  top: 25px;
   left: 20px;
   right: 20px;
   font-size: 16px;
