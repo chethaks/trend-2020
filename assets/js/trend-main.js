@@ -43,7 +43,7 @@ $("#hcs-connected-lifestyle").click(function () {
 $("#gao-glblol-bx1").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#glbloutlook-section1").offset().top + 5,
+      scrollTop: $("#glbloutlook-section1").offset().top + 110,
     },
     2000,
   );
@@ -56,7 +56,7 @@ $("#gao-glblol-bx1").click(function () {
 $("#gao-glblol-bx2").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#glbloutlook-section2").offset().top + 5,
+      scrollTop: $("#glbloutlook-section2").offset().top + 110,
     },
     2000,
   );
@@ -69,7 +69,7 @@ $("#gao-glblol-bx2").click(function () {
 $("#gao-glblol-bx3").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#glbloutlook-section3").offset().top + 5,
+      scrollTop: $("#glbloutlook-section3").offset().top + 110,
     },
     2000,
   );
@@ -82,7 +82,7 @@ $("#gao-glblol-bx3").click(function () {
 $("#gao-glblol-bx4").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#glbloutlook-section4").offset().top + 5,
+      scrollTop: $("#glbloutlook-section4").offset().top + 110,
     },
     2000,
   );
@@ -259,7 +259,7 @@ $("#vertical-darrow").click(function () {
 $("#cc-connectivity").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#connectivity-1").offset().top,
+      scrollTop: $("#connectivity-1").offset().top + 110,
     },
     2000,
   );
@@ -270,7 +270,7 @@ $("#cc-connectivity").click(function () {
 $("#cc-autonomous").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#autonomous-1").offset().top,
+      scrollTop: $("#autonomous-1").offset().top + 110,
     },
     2000,
   );
@@ -280,7 +280,7 @@ $("#cc-autonomous").click(function () {
 $("#cc-shared").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#shared-1").offset().top,
+      scrollTop: $("#shared-1").offset().top + 110,
     },
     2000,
   );
@@ -290,7 +290,7 @@ $("#cc-shared").click(function () {
 $("#cc-electrification").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#electrification-1").offset().top,
+      scrollTop: $("#electrification-1").offset().top + 110,
     },
     2000,
   );
@@ -300,7 +300,7 @@ $("#cc-electrification").click(function () {
 $("#new-busi-model").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#business-1").offset().top,
+      scrollTop: $("#business-1").offset().top + 110,
     },
     2000,
   );
@@ -514,7 +514,7 @@ $("#moveToNewbm, #sum-moveToNewbm, #cchead-moveToNewbm").click(function () {
 $("#showDown").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#openOutlook").offset().top,
+      scrollTop: $("#openOutlook").offset().top + 110,
     },
     2000,
   );
