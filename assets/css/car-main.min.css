@@ -1459,23 +1459,60 @@
 
 .cc-summary-division .bx1 {
   background: #2367b1;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .cc-summary-division .bx2 {
   background: #2a9fd9;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .cc-summary-division .bx3 {
   background: #2367b1;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .cc-summary-division .bx4 {
   background: #2367b1;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .cc-summary-division .bx5 {
   background: #2367b1;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
+
+.cc-summary-division .bx1:hover,
+.cc-summary-division .bx3:hover,
+.cc-summary-division .bx4:hover,
+.cc-summary-division .bx5:hover {
+  background: #00a1e8;
+}
+
+.cc-summary-division .bx2:hover {
+  background: #2367b1;
+}
+
 
 @media (max-width: 1199.98px) {
   .cc-summary-division {
