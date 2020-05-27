@@ -111,6 +111,15 @@ html {
   text-align: left;
   position: relative;
   margin-bottom: 5px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.trends-list-item li:hover{
+  background-color: #00a1e8;
 }
 
 .trends-list-item li:last-child {
@@ -1316,4 +1325,13 @@ html {
     font-size: 24px;
     font-weight: bold;
   }
+}
+
+
+#ls-mt-bx1,
+#ls-mt-bx2,
+#ls-mt-bx3,
+#ls-mt-bx4,
+#ls-mt-bx5{
+  cursor: pointer;
 }

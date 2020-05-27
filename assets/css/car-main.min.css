@@ -89,6 +89,15 @@
   height: 195px;
   text-align: left;
   position: relative;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.glbl-auto-trends .trends-list-item li:hover {
+  background-color: #00a1e8;
 }
 
 .glbl-auto-trends .trends-list-item li:last-child {
@@ -592,7 +601,7 @@
 }
 
 .global-connectivity #connectivity-4 .content-section p {
-  
+
   /* font-weight: 500; */
   line-height: 36px;
   font-size: 18px;
@@ -605,7 +614,7 @@
 }
 
 .global-connectivity #connectivity-5 .content-section p {
-  
+
   font-weight: normal;
   line-height: 36px;
   font-size: 17px;
@@ -1507,5 +1516,3 @@
 
   color: #5acae6 !important;
 }
-
-

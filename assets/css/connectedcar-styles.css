@@ -828,7 +828,7 @@ a#txt-moveToElectrification span {
 
 /*  SHARED MAAS SECTION 3 STYLES START */
 .sharedmaas-section3 .sharedmaas-sec3 {
-  min-height: 550px;
+  min-height: 600px;
   background: #ffffff;
   position: relative;
 }
@@ -1087,7 +1087,7 @@ a#txt-moveToElectrification span {
 
 /*  NEW BUSINESS MODELS SECTION 2 STYLES START */
 .newbusimodels-section2 .newbusimodels-sec2 {
-  min-height: 450px;
+  min-height: 500px;
   background: #ffffff;
   position: relative;
   padding-top: 30px;
@@ -1245,6 +1245,15 @@ a#txt-moveToElectrification span {
 
 
 
+#gao-glblol-bx1,
+#gao-glblol-bx2,
+#gao-glblol-bx3,
+#gao-glblol-bx4{
+  cursor: pointer;
+}
+
+
+
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -1261,5 +1270,9 @@ a#txt-moveToElectrification span {
 
   .newbusimodels-section2 .newbusimodels-sec2{
     min-height: 400px;
+  }
+
+  .glbl-automotive .rgt-column .trends-list-item{
+    padding-left: 80px;
   }
 }

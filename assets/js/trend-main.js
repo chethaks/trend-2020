@@ -29,7 +29,7 @@ $(".navbar-toggler").click(function () {
 $("#hcs-connected-lifestyle").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#connected-lifestyle").offset().top,
+      scrollTop: $("#connected-lifestyle").offset().top + 110,
     },
     2000,
   );
@@ -38,11 +38,200 @@ $("#hcs-connected-lifestyle").click(function () {
 // HCS CLICK DOWN ARROW END
 
 
+
+// CC BOX1 CLICK DOWN ARROW START
+$("#gao-glblol-bx1").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#glbloutlook-section1").offset().top + 5,
+    },
+    2000,
+  );
+  return false;
+});
+// CC BOX1 CLICK DOWN ARROW END
+
+
+// CC BOX2 CLICK DOWN ARROW START
+$("#gao-glblol-bx2").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#glbloutlook-section2").offset().top + 5,
+    },
+    2000,
+  );
+  return false;
+});
+// CC BOX2 CLICK DOWN ARROW END
+
+
+// CC BOX3 CLICK DOWN ARROW START
+$("#gao-glblol-bx3").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#glbloutlook-section3").offset().top + 5,
+    },
+    2000,
+  );
+  return false;
+});
+// CC BOX3 CLICK DOWN ARROW END
+
+
+// CC BOX4 CLICK DOWN ARROW START
+$("#gao-glblol-bx4").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#glbloutlook-section4").offset().top + 5,
+    },
+    2000,
+  );
+  return false;
+});
+// CC BOX4 CLICK DOWN ARROW END
+
+
+
+// LS BOX1 CLICK DOWN ARROW START
+$("#ls-mt-bx1").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#consumer-pttrns").offset().top + 110,
+    },
+    2000,
+  );
+  return false;
+});
+// LS BOX1 CLICK DOWN ARROW END
+
+// LS BOX2 CLICK DOWN ARROW START
+$("#ls-mt-bx2").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#emerging-tech").offset().top + 110,
+    },
+    2000,
+  );
+  return false;
+});
+// LS BOX2 CLICK DOWN ARROW END
+
+
+// LS BOX3 CLICK DOWN ARROW START
+$("#ls-mt-bx3").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#multisensory-exp").offset().top + 110,
+    },
+    2000,
+  );
+  return false;
+});
+// LS BOX3 CLICK DOWN ARROW END
+
+
+// LS BOX4 CLICK DOWN ARROW START
+$("#ls-mt-bx4").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#gaming-esports").offset().top + 110,
+    },
+    2000,
+  );
+  return false;
+});
+// LS BOX4 CLICK DOWN ARROW END
+
+
+// LS BOX5 CLICK DOWN ARROW START
+$("#ls-mt-bx5").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#human-augmentation").offset().top + 110,
+    },
+    2000,
+  );
+  return false;
+});
+// LS BOX5 CLICK DOWN ARROW END
+
+
+// CS BOX1 CLICK DOWN ARROW START
+$("#cs-mt-bx1").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#connected-lifestyle").offset().top + 110,
+    },
+    2000,
+  );
+  return false;
+});
+// CS BOX1 CLICK DOWN ARROW END
+
+// CS BOX2 CLICK DOWN ARROW START
+$("#cs-mt-bx2").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#voiceai").offset().top + 110,
+    },
+    2000,
+  );
+  return false;
+});
+// CS BOX2 CLICK DOWN ARROW END
+
+// CS BOX3 CLICK DOWN ARROW START
+$("#cs-mt-bx3").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#edge-cloud-computing").offset().top + 110,
+    },
+    2000,
+  );
+  return false;
+});
+// CS BOX3 CLICK DOWN ARROW END
+
+// CS BOX4 CLICK DOWN ARROW START
+$("#cs-mt-bx4").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#data-mngt-security").offset().top + 110,
+    },
+    2000,
+  );
+  return false;
+});
+// CS BOX4 CLICK DOWN ARROW END
+
+// CS BOX5 CLICK DOWN ARROW START
+$("#cs-mt-bx5").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#exp-platform").offset().top + 110,
+    },
+    2000,
+  );
+  return false;
+});
+// CS BOX5 CLICK DOWN ARROW END
+
+
+
+
+
+
+
+
+
+
+
+
 // LS CLICK DOWN ARROW START
 $("#ls-cons-ptrns").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#consumer-pttrns").offset().top,
+      scrollTop: $("#consumer-pttrns").offset().top + 110,
     },
     2000,
   );
@@ -56,7 +245,7 @@ $("#vertical-darrow").click(function () {
 
   $("html, body").animate(
     {
-      scrollTop: $("#verticalSection").offset().top,
+      scrollTop: $("#verticalSection").offset().top + 120,
     },
     2000,
   );
@@ -128,12 +317,12 @@ $("#new-busi-model").click(function () {
 
 // PRO SOLUTION - END USER
 $("#prosol-enduser").click(function (e) {
-  $("#end-user").addClass("show-section");
-  $("#vertical").removeClass("show-section");
-  $("#competitors").removeClass("show-section");
-  $("#channel").removeClass("show-section");
-  $("#product").removeClass("show-section");
-  e.preventDefault();
+  // $("#end-user").addClass("show-section");
+  // $("#vertical").removeClass("show-section");
+  // $("#competitors").removeClass("show-section");
+  // $("#channel").removeClass("show-section");
+  // $("#product").removeClass("show-section");
+  // e.preventDefault();
   $("html, body").animate(
     {
       scrollTop: $("#end-user").offset().top,
@@ -145,12 +334,12 @@ $("#prosol-enduser").click(function (e) {
 
 // PRO SOLUTION - vertical
 $("#prosol-vertical").click(function (e) {
-  $("#end-user").removeClass("show-section");
-  $("#vertical").addClass("show-section");
-  $("#competitors").removeClass("show-section");
-  $("#channel").removeClass("show-section");
-  $("#product").removeClass("show-section");
-  e.preventDefault();
+  // $("#end-user").removeClass("show-section");
+  // $("#vertical").addClass("show-section");
+  // $("#competitors").removeClass("show-section");
+  // $("#channel").removeClass("show-section");
+  // $("#product").removeClass("show-section");
+  // e.preventDefault();
   $("html, body").animate(
     {
       scrollTop: $("#vertical").offset().top,
@@ -165,12 +354,12 @@ $("#prosol-vertical").click(function (e) {
 
 // PRO SOLUTION - competitors
 $("#prosol-competitors").click(function (e) {
-  $("#end-user").removeClass("show-section");
-  $("#vertical").removeClass("show-section");
-  $("#competitors").addClass("show-section");
-  $("#channel").removeClass("show-section");
-  $("#product").removeClass("show-section");
-  e.preventDefault();
+  // $("#end-user").removeClass("show-section");
+  // $("#vertical").removeClass("show-section");
+  // $("#competitors").addClass("show-section");
+  // $("#channel").removeClass("show-section");
+  // $("#product").removeClass("show-section");
+  // e.preventDefault();
   $("html, body").animate(
     {
       scrollTop: $("#competitors").offset().top,
@@ -183,12 +372,12 @@ $("#prosol-competitors").click(function (e) {
 
 // PRO SOLUTION - channel
 $("#prosol-channel").click(function (e) {
-  $("#end-user").removeClass("show-section");
-  $("#vertical").removeClass("show-section");
-  $("#competitors").removeClass("show-section");
-  $("#channel").addClass("show-section");
-  $("#product").removeClass("show-section");
-  e.preventDefault();
+  // $("#end-user").removeClass("show-section");
+  // $("#vertical").removeClass("show-section");
+  // $("#competitors").removeClass("show-section");
+  // $("#channel").addClass("show-section");
+  // $("#product").removeClass("show-section");
+  // e.preventDefault();
   $("html, body").animate(
     {
       scrollTop: $("#channel").offset().top,
@@ -200,12 +389,12 @@ $("#prosol-channel").click(function (e) {
 
 // PRO SOLUTION - product
 $("#prosol-product").click(function (e) {
-  $("#end-user").removeClass("show-section");
-  $("#vertical").removeClass("show-section");
-  $("#competitors").removeClass("show-section");
-  $("#channel").removeClass("show-section");
-  $("#product").addClass("show-section");
-  e.preventDefault();
+  // $("#end-user").removeClass("show-section");
+  // $("#vertical").removeClass("show-section");
+  // $("#competitors").removeClass("show-section");
+  // $("#channel").removeClass("show-section");
+  // $("#product").addClass("show-section");
+  // e.preventDefault();
   $("html, body").animate(
     {
       scrollTop: $("#product").offset().top,
@@ -355,7 +544,7 @@ $("#covid").click(function () {
 $("#endUser").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#endUserSection").offset().top,
+      scrollTop: $("#endUserSection").offset().top + 110,
     },
     2000,
   );
@@ -365,7 +554,7 @@ $("#endUser").click(function () {
 $("#competitorsIn").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#competitorSection").offset().top,
+      scrollTop: $("#competitorSection").offset().top + 120,
     },
     2000,
   );
@@ -385,7 +574,7 @@ $("#verticalIn").click(function () {
 $("#channelIn").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#channelSection").offset().top,
+      scrollTop: $("#channelSection").offset().top + 125,
     },
     2000,
   );
@@ -395,7 +584,7 @@ $("#channelIn").click(function () {
 $("#productIn").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#productSection").offset().top,
+      scrollTop: $("#productSection").offset().top + 120,
     },
     2000,
   );
@@ -433,7 +622,7 @@ window.onload = function () {
 $("#covidClick").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#openCovideSection").offset().top,
+      scrollTop: $("#openCovideSection").offset().top + 10,
     },
     2000,
   );
