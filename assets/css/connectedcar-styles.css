@@ -22,6 +22,24 @@
   padding: 50px;
 }
 
+.usuk-cont {
+  position: relative;
+}
+
+.usuk-cont:before {
+  content: "\f111";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #f7f7f7;
+  font-size: 8px;
+  padding-right: 0.5em;
+  position: absolute;
+  top: 1px;
+  left: -16px;
+}
+
 /* GLOBAL OUTLOOK SECTION 1 STYLES END */
 
 
@@ -597,7 +615,7 @@ a#txt-moveToElectrification span {
 
 /* AUTONOMOUS SECTION 4 STYLES START */
 .autonomous-section4 .autonomous-sec4 {
-  min-height: 500px;
+  min-height: 550px;
   background: #F5F6F7;
   position: relative;
 }
@@ -991,6 +1009,7 @@ a#txt-moveToElectrification span {
   color: #f7f7f7;
   padding: 50px;
 }
+
 /*  ELECTRIFICATION SECTION 4 STYLES END */
 
 
@@ -1083,6 +1102,7 @@ a#txt-moveToElectrification span {
   font-weight: normal;
   line-height: 33px;
 }
+
 /*  NEW BUSINESS MODELS SECTION 1 STYLES END */
 
 /*  NEW BUSINESS MODELS SECTION 2 STYLES START */
@@ -1103,7 +1123,7 @@ a#txt-moveToElectrification span {
   padding: 50px;
 }
 
-.forbdr-rgt::after{
+.forbdr-rgt::after {
   content: '';
   position: absolute;
   right: -10px;
@@ -1118,7 +1138,7 @@ a#txt-moveToElectrification span {
   right: 0;
   bottom: 0;
   width: 50%;
-  padding:50px;
+  padding: 50px;
 }
 
 /*  NEW BUSINESS MODELS SECTION 2 STYLES END */
@@ -1248,7 +1268,7 @@ a#txt-moveToElectrification span {
 #gao-glblol-bx1,
 #gao-glblol-bx2,
 #gao-glblol-bx3,
-#gao-glblol-bx4{
+#gao-glblol-bx4 {
   cursor: pointer;
 }
 
@@ -1257,22 +1277,24 @@ a#txt-moveToElectrification span {
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .section-title{
+  .section-title {
     font-size: 30px !important;
     line-height: 34px !important;
   }
-  .cont-sec{
+
+  .cont-sec {
     padding: 50px !important;
   }
-  .section-title span.split-title{
+
+  .section-title span.split-title {
     display: inline !important;
   }
 
-  .newbusimodels-section2 .newbusimodels-sec2{
+  .newbusimodels-section2 .newbusimodels-sec2 {
     min-height: 400px;
   }
 
-  .glbl-automotive .rgt-column .trends-list-item{
+  .glbl-automotive .rgt-column .trends-list-item {
     padding-left: 80px;
   }
 }
