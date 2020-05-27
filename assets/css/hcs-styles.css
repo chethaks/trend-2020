@@ -251,11 +251,11 @@ html {
   position: absolute;
   left: 0;
   width: 39%;
-  padding: 50px 10%;
+  /* padding: 50px 10%; */
   background: #2367B1;
   color: #fff;
-  font-size: 17px;
-  line-height: 26px;
+  /* font-size: 17px;
+  line-height: 26px; */
   font-weight: normal;
 }
 
@@ -324,11 +324,11 @@ html {
   position: absolute;
   left: 0;
   width: 43%;
-  padding: 50px 6% 50px 10%;
+  /* padding: 50px 6% 50px 6%; */
   background: #fff;
   color: #2367B1;
-  font-size: 17px;
-  line-height: 26px;
+  /* font-size: 17px;
+  line-height: 26px; */
   font-weight: normal;
 }
 
@@ -425,11 +425,11 @@ html {
   position: absolute;
   right: 0;
   width: 44%;
-  padding: 50px 10%;
+  /* padding: 50px 10%; */
   background: #fff;
   color: #2266B0;
-  font-size: 17px;
-  line-height: 26px;
+  /* font-size: 17px;
+  line-height: 26px; */
   font-weight: normal;
 }
 
@@ -516,11 +516,11 @@ html {
   position: absolute;
   left: 0;
   width: 39%;
-  padding: 50px 10%;
+  /* padding: 50px 10%; */
   background: #2367B1;
   color: #fff;
-  font-size: 17px;
-  line-height: 26px;
+  /* font-size: 17px;
+  line-height: 26px; */
   font-weight: normal;
 }
 
@@ -601,11 +601,11 @@ html {
   position: absolute;
   right: 0;
   width: 44%;
-  padding: 50px 10%;
+  /* padding: 50px 10%; */
   background: #2367B1;
   color: #fff;
-  font-size: 17px;
-  line-height: 26px;
+  /* font-size: 17px;
+  line-height: 26px; */
   font-weight: normal;
 }
 
@@ -694,7 +694,7 @@ html {
 }
 
 .exp-platform-section .exp-platform {
-  min-height: 700px;
+  min-height: 720px;
   background: #fff;
   position: relative;
 }
@@ -704,11 +704,11 @@ html {
   position: absolute;
   right: 0;
   width: 42%;
-  padding: 50px 10%;
+  /* padding: 50px 10%; */
   background: #fff;
   color: #2266B0;
-  font-size: 17px;
-  line-height: 26px;
+  /* font-size: 17px;
+  line-height: 26px; */
   font-weight: normal;
 }
 
@@ -795,11 +795,11 @@ html {
   position: absolute;
   left: 0;
   width: 42%;
-  padding: 50px 10%;
+  /* padding: 50px 10%; */
   background: #fff;
   color: #2367B1;
-  font-size: 17px;
-  line-height: 26px;
+  /* font-size: 17px;
+  line-height: 26px; */
   font-weight: normal;
 }
 

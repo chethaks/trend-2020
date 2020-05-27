@@ -22,11 +22,11 @@
   padding: 50px;
 }
 
-.usuk-cont {
+.bullet-point {
   position: relative;
 }
 
-.usuk-cont:before {
+.bullet-point:before {
   content: "\f111";
   font-family: FontAwesome;
   font-style: normal;
@@ -668,7 +668,7 @@ a#txt-moveToElectrification span {
   font-size: 24px;
   line-height: 155.19%;
   font-weight: bold;
-  background: url(../images/cc/TB_CC-micro-trends-Autonomous/TB_CC-micro-trends-Autonomous-02.png) center center no-repeat;
+  background: url(../images/cc/TB_CC-micro-trends-Autonomous/TB_CC-micro-trends-Autonomous-02.png) center bottom no-repeat;
   background-size: cover;
 }
 
@@ -690,6 +690,24 @@ a#txt-moveToElectrification span {
   font-size: 17px;
   line-height: 155.19%;
   color: #FFFFFF;
+}
+.indent-bullet-point {
+  position: relative;
+  padding-left: 50px !important;
+}
+
+.indent-bullet-point:before {
+  content: "\f111";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #f7f7f7;
+  font-size: 8px;
+  padding-right: 0.5em;
+  position: absolute;
+  top: 1px;
+  left: 30px;
 }
 
 /* AUTONOMOUS SECTION 5 STYLES END */
@@ -782,7 +800,7 @@ a#txt-moveToElectrification span {
   top: 0;
   right: 0;
   width: 42%;
-  background: url(../images/cc/TB_CC-micro-trends-Autonomous/TB_CC-micro-trends-Autonomous-04.png) center top no-repeat;
+  background: url(../images/cc/TB_CC-micro-trends-Autonomous/TB_CC-micro-trends-Autonomous-04.png) center bottom no-repeat;
   background-size: cover;
 }
 

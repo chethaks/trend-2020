@@ -416,7 +416,7 @@ html {
   position: absolute;
   left: 0;
   width: 44%;
-  padding: 50px 10%;
+  /* padding: 50px 10%; */
   background: #2367B1;
   color: #fff;
   font-size: 24px;
@@ -582,15 +582,15 @@ html {
   width: 45%;
   text-align: left;
   background: #2A9FD9;
-  padding: 60px 80px 20px 90px;
+  /* padding: 60px 80px 20px 90px; */
 }
 
 .multisensry-exp .rgt-column .mlti-exp-list li {
   padding-bottom: 30px;
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 155.19%;
+  line-height: 155.19%; */
   color: #FFFFFF;
 }
 
@@ -620,7 +620,7 @@ html {
   position: absolute;
   left: 0;
   width: 44%;
-  padding: 50px 10%;
+  /* padding: 50px 10%; */
   background: #2367B1;
   color: #fff;
   font-size: 24px;
@@ -717,7 +717,7 @@ html {
   width: 44%;
   text-align: left;
   background: #2367B1;
-  padding: 50px 10%;
+  /* padding: 50px 10%; */
   font-weight: bold;
   font-size: 24px;
   line-height: 155%;
@@ -770,11 +770,11 @@ html {
   position: absolute;
   left: 0;
   width: 44%;
-  padding: 50px 10%;
+  /* padding: 50px 10%; */
   background: #2367B1;
-  font-weight: 500;
+  /* font-weight: 500;
   font-size: 17px;
-  line-height: 155.19%;
+  line-height: 155.19%; */
   /* or 26px */
   color: #FFFFFF;
 }
@@ -801,10 +801,10 @@ html {
 
 .gaming-esports .lft-column .game-esports-list li {
   padding-bottom: 30px;
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 155.19%;
+  line-height: 155.19%; */
   color: #FFFFFF;
 }
 
@@ -898,10 +898,10 @@ html {
   width: 44%;
   text-align: left;
   background: #2367B1;
-  padding: 50px 10%;
-  font-weight: bold;
+  /* padding: 50px 10%; */
+  /* font-weight: bold;
   font-size: 24px;
-  line-height: 155%;
+  line-height: 155%; */
   /* or 37px */
   color: #FFFFFF;
 }
@@ -913,9 +913,9 @@ html {
 .gaming-esports2 .rgt-column .game-esports-list li {
   padding-bottom: 20px;
   font-style: normal;
-  font-weight: 500;
+  /* font-weight: 500;
   font-size: 17px;
-  line-height: 155.19%;
+  line-height: 155.19%; */
   color: #FFFFFF;
 }
 
@@ -965,11 +965,11 @@ html {
   position: absolute;
   left: 0;
   width: 44%;
-  padding: 50px 10%;
+  /* padding: 50px 10%; */
   background: #2367B1;
-  font-weight: 500;
+  /* font-weight: 500;
   font-size: 17px;
-  line-height: 155.19%;
+  line-height: 155.19%; */
   /* or 26px */
   color: #FFFFFF;
 }
@@ -996,10 +996,10 @@ html {
 
 .human-aug .lft-column .game-esports-list li {
   padding-bottom: 30px;
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 155.19%;
+  line-height: 155.19%; */
   color: #FFFFFF;
 }
 
@@ -1060,9 +1060,9 @@ html {
   width: 52%;
   padding: 60px 80px 20px 90px;
   color: #fff;
-  font-size: 24px;
+  /* font-size: 24px;
   line-height: 155.19%;
-  font-weight: bold;
+  font-weight: bold; */
   background: #fff;
 }
 
@@ -1093,7 +1093,7 @@ html {
   width: 48%;
   text-align: left;
   background: #2367B1;
-  padding: 50px 10%;
+  /* padding: 50px 10%; */
   font-weight: bold;
   font-size: 24px;
   line-height: 155%;
@@ -1158,11 +1158,11 @@ html {
   position: absolute;
   left: 0;
   width: 44%;
-  padding: 50px 10%;
+  /* padding: 50px 10%; */
   background: #2367B1;
-  font-weight: 500;
+  /* font-weight: 500;
   font-size: 17px;
-  line-height: 155.19%;
+  line-height: 155.19%; */
   /* or 26px */
   color: #FFFFFF;
 }
@@ -1190,9 +1190,9 @@ html {
 .robotics .lft-column .game-esports-list li {
   padding-bottom: 30px;
   font-style: normal;
-  font-weight: 500;
+  /* font-weight: 500;
   font-size: 17px;
-  line-height: 155.19%;
+  line-height: 155.19%; */
   color: #FFFFFF;
 }
 

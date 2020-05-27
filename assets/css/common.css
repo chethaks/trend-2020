@@ -173,6 +173,10 @@ section {
   background: #f0f0f0;
 }
 
+.bgclr-grey2 {
+  background: #eaeaea;
+}
+
 .clr-grey1 {
   color: #6d6d6d;
 }
@@ -236,6 +240,9 @@ section {
 .pl-100px {
   padding-left: 100px;
 }
+
+.pl-90px{ padding-left: 90px !important;}
+.pr-90px{ padding-right: 90px !important;}
 
 .pr-100px {
   padding-right: 100px;
