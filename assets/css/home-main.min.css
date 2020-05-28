@@ -832,7 +832,7 @@ footer span {
   line-height: 159.5%;
   letter-spacing: 0.07em;
   color: #f5f5f5;
-  padding: 5% 20% 7% 15%;
+  padding: 5% 20% 9% 15%;
   margin-right: 34%;
 }
 
@@ -840,7 +840,7 @@ footer span {
   color: #ffffff;
   display: block;
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   font-size: 14px;
 }
 
@@ -848,7 +848,7 @@ footer span {
   position: relative;
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
-  bottom: 35px;
+  /* bottom: 35px; */
   left: -2px;
 }
 

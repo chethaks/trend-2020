@@ -602,7 +602,7 @@ html {
 }
 
 .multisen-exp-section3 .multisensry-exp3 {
-  min-height: 600px;
+  min-height: 650px;
   background: #F5F6F7;
   position: relative;
 }
@@ -1131,6 +1131,10 @@ html {
 
   .fa {
     color: #ffffff;
+  }
+
+  .multisen-exp-section3 .multisensry-exp3 {
+    min-height: 450px;
   }
 }
 
