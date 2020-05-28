@@ -997,3 +997,107 @@ footer span {
 .tab-content>.tab-pane{
   display: block;
 }
+
+
+
+/* PROSOLUTION MARKET TRENDS SECTION STYLES START */
+.trends-list-item {
+  padding-left: 50px;
+}
+
+.ls-consumer-trends {
+  height: 100vh;
+  background: url(../images/ps/TB_PS-banner-trends-01.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.ls-consumer-trends .lft-column .ls-trends-lfttitle {
+  position: relative;
+}
+
+.ls-trends-lfttitle h1 {
+  color: #fff;
+  font-size: 66px;
+  line-height: 77px;
+  font-weight: bold;
+  margin-left: 15%;
+}
+
+.ls-trends-lfttitle .down-arrow {
+  position: absolute;
+  bottom: -70px;
+  left: 15%;
+}
+
+.ls-consumer-trends .lft-column {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+}
+
+.ls-consumer-trends .rgt-column {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 80%;
+}
+
+.trends-list-item li {
+  background-color: #2266b0;
+  padding: 20px !important;
+  min-height: 100%;
+  display: inline-block;
+  width: 170px;
+  height: 195px;
+  margin: 0;
+  text-align: left;
+  position: relative;
+  margin-bottom: 5px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.trends-list-item li span {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+
+.trends-list-item li .trends-card-arrow{
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  height: 18px;
+  width: 18px;
+}
+
+.trends-list-item li:hover {
+  background-color: #00a1e8;
+}
+
+.trends-list-item li:last-child {
+  margin-right: 8px;
+}
+
+#prosol-enduser,
+#prosol-vertical,
+#prosol-competitors,
+#prosol-channel,
+#prosol-product {
+  cursor: pointer;
+}
+
+/* PROSOLUTION MARKET TRENDS SECTION STYLES END */
