@@ -3,7 +3,7 @@
 body,
 html {
   font-family: "Roboto", sans-serif;
-  background-color: #e5e5e5;
+  background-color: #f7f7f7;
 }
 
 section {
@@ -33,20 +33,16 @@ section {
 }
 
 .navbar.active {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    color-stop(39.58%, #0c4584),
-    color-stop(69.79%, rgba(12, 69, 132, 0.79)),
-    to(rgba(0, 114, 164, 0.09))
-  );
-  background: linear-gradient(
-    90deg,
-    #0c4584 39.58%,
-    rgba(12, 69, 132, 0.79) 69.79%,
-    rgba(0, 114, 164, 0.09) 100%
-  );
+  background: -webkit-gradient(linear,
+      left top,
+      right top,
+      color-stop(39.58%, #0c4584),
+      color-stop(69.79%, rgba(12, 69, 132, 0.79)),
+      to(rgba(0, 114, 164, 0.09)));
+  background: linear-gradient(90deg,
+      #0c4584 39.58%,
+      rgba(12, 69, 132, 0.79) 69.79%,
+      rgba(0, 114, 164, 0.09) 100%);
   -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.4);
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.4);
 }
@@ -185,26 +181,22 @@ section {
 }
 
 .bg-trend .bg-trend-cta .covid-19-cta {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#2266b0),
-    color-stop(27%, #206ab3),
-    color-stop(51%, #1a75be),
-    color-stop(74%, #0f87cf),
-    color-stop(96%, #00a1e8),
-    color-stop(97%, #00a1e8)
-  );
-  background: linear-gradient(
-    90deg,
-    #2266b0 0%,
-    #206ab3 27%,
-    #1a75be 51%,
-    #0f87cf 74%,
-    #00a1e8 96%,
-    #00a1e8 97%
-  );
+  background: -webkit-gradient(linear,
+      left top,
+      right top,
+      from(#2266b0),
+      color-stop(27%, #206ab3),
+      color-stop(51%, #1a75be),
+      color-stop(74%, #0f87cf),
+      color-stop(96%, #00a1e8),
+      color-stop(97%, #00a1e8));
+  background: linear-gradient(90deg,
+      #2266b0 0%,
+      #206ab3 27%,
+      #1a75be 51%,
+      #0f87cf 74%,
+      #00a1e8 96%,
+      #00a1e8 97%);
   height: 120px;
   cursor: pointer;
   font-size: 18px;
@@ -560,13 +552,12 @@ section {
   padding-bottom: 60px !important;
 }
 
-.common-section .global-header p {
+.gdp-growth {
   font-weight: 900;
   font-size: 18px;
   line-height: 21px;
   color: #2266b0;
   text-align: right;
-  padding-top: 2%;
 }
 
 .common-section .global-subtitle {
@@ -638,13 +629,12 @@ img.plr-0 {
 
 .common-covid-section .covid-left-section ul {
   background-color: #fff;
-  margin: 0 18% 10% 10%;
+  margin: 0 15% 10% 10%;
   padding: 4% 6% 4% 4%;
 }
 
 .common-covid-section .covid-left-section ul li {
   list-style: none;
-  font-size: 21px;
   color: #2266b0;
   padding: 20px;
 }
@@ -681,7 +671,6 @@ img.plr-0 {
 
 .common-covid-section .covid-middle-section ul li {
   list-style: none;
-  font-size: 21px;
   color: #2266b0;
   padding: 20px;
 }
@@ -726,7 +715,6 @@ img.plr-0 {
 
 .common-covid-section .covid-right-section ul li {
   list-style: none;
-  font-size: 21px;
   color: #2266b0;
   padding: 20px;
 }
@@ -993,12 +981,9 @@ footer span {
   }
 }
 
-
-.tab-content>.tab-pane{
+.tab-content>.tab-pane {
   display: block;
 }
-
-
 
 /* PROSOLUTION MARKET TRENDS SECTION STYLES START */
 .trends-list-item {
@@ -1076,7 +1061,7 @@ footer span {
   color: #fff;
 }
 
-.trends-list-item li .trends-card-arrow{
+.trends-list-item li .trends-card-arrow {
   position: absolute;
   right: 16px;
   bottom: 16px;
@@ -1101,3 +1086,138 @@ footer span {
 }
 
 /* PROSOLUTION MARKET TRENDS SECTION STYLES END */
+
+/* ENDUSER SECTION 1 STYLES START */
+.glbloutlook-section1 .glbloutlook-sec1 {
+  min-height: 620px;
+  background: #ffffff;
+  position: relative;
+}
+
+.glbloutlook-section1 .glbloutlook-sec1 .single-column {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+/* ENDUSER SECTION 1 STYLES END */
+
+/* ENDUSER SECTION 2 STYLES START */
+.glbloutlook-section2 .glbloutlook-sec2 {
+  min-height: 500px;
+  /* background: #ffffff; */
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.glbloutlook-section2 .glbloutlook-sec2 .single-column {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #f7f7f7;
+  padding: 0 50px;
+  border-left: 20px solid #2266b0;
+  border-right: 20px solid #2266b0;
+}
+
+/* ENDUSER SECTION 2 STYLES END */
+
+/*  VERTICAL SECTION 1 STYLES START */
+.vertical-bigdata-section1 .vertical-bigdata-sec1 {
+  min-height: 600px;
+  background: #ffffff;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.vertical-bigdata-section1 .vertical-bigdata-sec1 .lft-column {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 50%;
+  padding: 50px;
+}
+
+.vertical-bigdata-section1 .vertical-bigdata-sec1 .rgt-column {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  padding: 50px;
+}
+
+/*  VERTICAL SECTION 1 STYLES END */
+
+/* VERTICAL SECTION 2 STYLES START */
+.vertical-section2 .vertical-sec2 {
+  min-height: 620px;
+  background: #ffffff;
+  position: relative;
+}
+
+.vertical-section2 .vertical-sec2 .single-column {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+/* VERTICAL SECTION 2 STYLES END */
+
+/* COMPETITORS SECTION 1 STYLES START */
+.competitors-section1 .competitors-sec1 {
+  min-height: 500px;
+  /* background: #ffffff; */
+  position: relative;
+}
+
+.competitors-section1 .competitors-sec1 .single-column {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #f7f7f7;
+  /* padding: 50px; */
+}
+
+/* COMPETITORS SECTION 1 STYLES END */
+
+/* PRODUCT SECTION 1 STYLES START */
+.product-section1 .product-sec1 {
+  min-height: 550px;
+  background: #ffffff;
+  position: relative;
+}
+
+.product-section1 .product-sec1 .single-column {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #f7f7f7;
+  padding: 50px;
+}
+
+/* PRODUCT SECTION 1 STYLES END */
+
+/* PRODUCT SECTION 2 STYLES START */
+.product-section2 .product-sec2 {
+  min-height: 550px;
+  /* background: #ffffff; */
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.product-section2 .product-sec2 .single-column {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #f7f7f7;
+  /* padding: 50px; */
+}
+
+/* PRODUCT SECTION 2 STYLES END */

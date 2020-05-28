@@ -241,8 +241,13 @@ section {
   padding-left: 100px;
 }
 
-.pl-90px{ padding-left: 90px !important;}
-.pr-90px{ padding-right: 90px !important;}
+.pl-90px {
+  padding-left: 90px !important;
+}
+
+.pr-90px {
+  padding-right: 90px !important;
+}
 
 .pr-100px {
   padding-right: 100px;
@@ -365,12 +370,26 @@ p.cont-subtitle {
   color: #f7f7f7;
 }
 
-
-
 .cont-height500 {
   min-height: 500px;
 }
 
 .txt-indent {
   padding-left: 60px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cont-sec {
+    padding: 50px !important;
+  }
+
+  .multisen-exp-section2 .multisensry-exp2 .title,
+  .multisen-exp-section3 .multisensry-exp3 .title,
+  .gaming-esports-section .gaming-esports .title,
+  .gaming-esports-section2 .gaming-esports2 .title,
+  .human-augumentation-section .human-aug .title,
+  .human-augumentation-section2 .human-aug2 .title {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }

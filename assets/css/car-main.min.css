@@ -125,11 +125,7 @@
   font-size: 14px;
 }
 
-
 /* GLOBAL AUTOMOTIVE OUTLOOK STYLES END */
-
-
-
 .mt-0 {
   margin-top: 0;
 }
@@ -145,8 +141,6 @@
 .car-page {
   background-color: #f7f7f7;
 }
-
-
 
 #showDown {
   cursor: pointer;
@@ -242,10 +236,6 @@
   line-height: 36px;
 }
 
-.global-outlook {
-  /* padding-top: 100px; */
-}
-
 .global-outlook .padding-15 {
   padding: 15%;
 }
@@ -273,7 +263,6 @@
 }
 
 .global-outlook .image-section h6 {
-  /* padding-left: 5%; */
   padding-top: 2%;
 }
 
@@ -482,7 +471,6 @@
   line-height: 18px;
   letter-spacing: 0.07em;
   color: #f7f7f7;
-  /* padding: 3% 20% 2%; */
 }
 
 .common-tab-section .content-section p {
@@ -490,7 +478,6 @@
   line-height: 24px;
   letter-spacing: 0.07em;
   color: #f7f7f7;
-  /* padding: 0 15% 0 20%; */
 }
 
 .common-tab-section .content-section img {
@@ -537,8 +524,6 @@
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
-  /* padding-left: 10%;
-  padding-right: 10%; */
 }
 
 .global-connectivity .content-section h4 {
@@ -549,10 +534,6 @@
 
 .global-connectivity .global-title h1 {
   font-weight: normal !important;
-}
-
-.global-connectivity #connectivity-1 .content-section {
-  /* padding: 10%; */
 }
 
 .global-connectivity #connectivity-1 .content-section h2 {
@@ -566,10 +547,6 @@
 
 .global-connectivity #connectivity-1 .content-section h4 {
   padding: 5% 10%;
-}
-
-.global-connectivity #connectivity-2 .content-section {
-  /* padding: 10%; */
 }
 
 .global-connectivity #connectivity-2 .content-section p {
@@ -599,30 +576,19 @@
   letter-spacing: 0.05em;
 }
 
-.global-connectivity #connectivity-4 .content-section {
-  /* padding: 25% 10% 10% 10%; */
-}
-
 .mobile-search-users {
   font-size: 18px;
   line-height: 25px;
 }
 
 .global-connectivity #connectivity-4 .content-section p {
-
-  /* font-weight: 500; */
   line-height: 36px;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
 }
 
-.global-connectivity #connectivity-5 .content-section {
-  /* padding: 10%; */
-}
-
 .global-connectivity #connectivity-5 .content-section p {
-
   font-weight: normal;
   line-height: 36px;
   font-size: 17px;
@@ -642,62 +608,30 @@
   width: 100%;
 }
 
-.global-connectivity #connectivity-6 .content-section {
-  /* padding: 10%; */
-}
-
 .global-connectivity #connectivity-6 .content-section p {
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
 }
 
-.global-connectivity #connectivity-6 .image-section {
-  /* padding: 0; */
-}
-
-.global-connectivity #connectivity-7 .content-section {
-  /* padding: 10%; */
-}
-
 .global-connectivity #connectivity-7 .content-section p {
-  /* padding: 20px 10% 0; */
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
-}
-
-.global-connectivity #connectivity-7 .image-section {
-  /* padding: 0; */
-}
-
-.global-connectivity #connectivity-8 .content-section {
-  /* padding: 10%; */
 }
 
 .global-connectivity #connectivity-8 .content-section p {
-  /* padding: 0 10%; */
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
-}
-
-.global-connectivity #connectivity-8 .image-section {
-  /* padding: 5%; */
-}
-
-.global-autonomous .content-section {
-  /* padding: 10%; */
 }
 
 .global-autonomous .content-section p {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
-  /* padding-left: 10%;
-  padding-right: 10%; */
 }
 
 .global-autonomous .content-section h4 {
@@ -706,21 +640,12 @@
   line-height: 29px;
 }
 
-.global-autonomous .content-section h2 {
-  /* padding: 5% 10% 2% 10%; */
-}
-
-.global-autonomous #autonomous-1 .image-section {
-  /* padding: 5%; */
-}
-
 .global-autonomous #autonomous-1 .image-section h3 {
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
   color: #2266b0;
   padding: 0 5%;
-  /* width: 75%; */
 }
 
 .global-autonomous #autonomous-3 .content-section h2 {
@@ -736,72 +661,30 @@
   padding: 0;
 }
 
-.global-autonomous #autonomous-4 .content-section {
-  /* padding: 10%; */
-}
-
-.global-autonomous #autonomous-4 .content-section h2 {
-  /* padding-top: 20%; */
-}
-
-.global-autonomous #autonomous-4 .content-section p {
-  /* padding-bottom: 10%; */
-}
-
 .global-autonomous #autonomous-5 .image-section {
   padding: 0;
-}
-
-.global-autonomous #autonomous-5 .content-section {
-  /* padding: 10%; */
 }
 
 .global-autonomous #autonomous-5 .content-section p {
   padding-bottom: 2%;
 }
 
-.global-autonomous #autonomous-6 .content-section {
-  /* padding: 10%; */
-}
-
 .global-autonomous #autonomous-7 .image-section {
   padding: 0;
-}
-
-.global-autonomous #autonomous-7 .content-section {
-  /* padding: 10%; */
-}
-
-.global-autonomous #autonomous-7 .content-section p {
-  /* padding-top: 2%; */
 }
 
 .global-autonomous #autonomous-8 .image-section {
   padding: 0;
 }
 
-.global-autonomous #autonomous-8 .content-section {
-  /* padding: 10%; */
-}
-
-.global-autonomous #autonomous-8 .content-section h2 {
-  /* padding-bottom: 5%; */
-}
-
 .global-autonomous #autonomous-8 .content-section p {
   padding-top: 1%;
-}
-
-.global-electrification .content-section {
-  /* padding: 10%; */
 }
 
 .global-electrification .content-section p {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
-  /* padding-left: 10%;
-  padding-right: 10%; */
 }
 
 .global-electrification .content-section h4 {
@@ -810,16 +693,8 @@
   line-height: 29px;
 }
 
-.global-electrification .content-section h2 {
-  /* padding: 5% 10% 2% 10%; */
-}
-
 .global-electrification #electrification-1 .content-section {
   color: #2266b0;
-}
-
-.global-electrification #electrification-1 .content-section p {
-  /* padding-top: 30%; */
 }
 
 .global-electrification #electrification-1 .content-section h6 {
@@ -840,10 +715,6 @@
   color: #f7f7f7;
 }
 
-.global-electrification #electrification-2 .content-section h6 {
-  /* padding-left: 10%; */
-}
-
 .global-electrification #electrification-3 .content-section p {
   font-size: 21px;
   line-height: 36px;
@@ -858,7 +729,6 @@
 .global-electrification #electrification-4 .content-section p {
   font-size: 21px;
   line-height: 36px;
-  /* padding-top: 25%; */
 }
 
 .global-electrification #electrification-4 .content-section h2 {
@@ -869,7 +739,6 @@
 .global-electrification #electrification-5 .content-section p {
   font-size: 21px;
   line-height: 36px;
-  /* padding-top: 5%; */
 }
 
 .global-electrification #electrification-5 .content-section h2 {
@@ -877,16 +746,10 @@
   line-height: 36px;
 }
 
-.global-shared .content-section {
-  /* padding: 10%; */
-}
-
 .global-shared .content-section p {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
-  /* padding-left: 10%;
-  padding-right: 10%; */
 }
 
 .global-shared .content-section h4 {
@@ -895,30 +758,16 @@
   line-height: 29px;
 }
 
-.global-shared .content-section h2 {
-  /* padding: 5% 10% 2% 10%; */
-}
-
 .global-shared #shared-1 .image-section h3 {
   font-size: 16px;
   line-height: 158.9%;
   padding: 0 18%;
 }
 
-.global-shared #shared-3 .content-section h2 {
-  /* padding-top: 30%; */
-}
-
-#new-business .content-section {
-  /* padding: 10%; */
-}
-
 #new-business .content-section p {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.05em;
-  /* padding-left: 10%;
-  padding-right: 10%; */
 }
 
 #new-business .content-section h4 {
@@ -950,12 +799,7 @@
   line-height: 25px;
 }
 
-#new-business #business-3 .content-section p {
-  /* padding-top: 5%; */
-}
-
 #new-business #business-3 .content-section h2 {
-  /* padding: 10% 10% 0 10%; */
   font-weight: 600;
 }
 
@@ -974,7 +818,6 @@
 }
 
 #new-business #business-3 .h2-merge {
-  /* padding: 10%; */
   font-size: 21px;
   line-height: 30px;
   font-style: italic;
@@ -1001,13 +844,11 @@
 }
 
 #new-business #business-5 .content-section p {
-  /* padding-top: 5%; */
   font-size: 21px;
   line-height: 36px;
 }
 
 #new-business #business-5 .content-section h2 {
-  /* padding: 10% 10% 5%; */
   font-size: 21px;
   line-height: 36px;
 }
@@ -1018,7 +859,6 @@
 }
 
 #new-business #business-6 .content-section p {
-  /* padding-top: 10%; */
   font-weight: bold;
   font-size: 24px;
   line-height: 33px;
@@ -1036,7 +876,6 @@
 }
 
 #new-business #business-7 .content-section p {
-  /* padding-top: 10%; */
   font-size: 21px;
   line-height: 33px;
 }
@@ -1052,16 +891,6 @@
   line-height: 33px;
 }
 
-
-
-
-
-
-
-
-
-
-
 .common-case-section .trend-update-img {
   background-color: #fff;
   margin-top: 10%;
@@ -1070,28 +899,6 @@
 .common-case-section .trend-update-img img {
   width: 90%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #marketSection .market-trend-content {
   position: absolute;
@@ -1187,7 +994,6 @@
   line-height: 26px;
   color: #2266b0;
   display: block;
-  /* width: 50%; */
 }
 
 .span4 {
@@ -1195,7 +1001,6 @@
   font-size: 18px;
   line-height: 24px;
   color: #2266b0;
-  /* width: 60%; */
   display: inline-block;
   padding-top: 2%;
   padding-bottom: 8%;
@@ -1317,17 +1122,6 @@
   }
 }
 
-/* CASE SECTION STYLES */
-
-
-
-
-
-
-
-
-/* CASE SECTION END */
-
 /* HOME BANNER TRENDS SECTION START */
 .trends-division {
   margin-left: 50px;
@@ -1338,7 +1132,6 @@
 .trends-card {
   position: relative;
   text-align: left;
-  /* text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1); */
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -1436,7 +1229,6 @@
 .cc-summary-division .trends-card {
   position: relative;
   text-align: left;
-
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -1532,17 +1324,12 @@
 
 /* SUMMARY SECTION END */
 
-
-
 .cc-summery-h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 36px;
-  /* or 164% */
-
   text-align: center;
-
   color: #ffffff;
 }
 
@@ -1552,9 +1339,6 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
-  /* or 200% */
-
   text-align: center;
-
   color: #5acae6 !important;
 }

@@ -1,100 +1,119 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 body,
 html {
   font-family: "Roboto", sans-serif;
   background-color: #f5f5f5;
 }
+
 section {
   position: relative;
 }
+
 .navbar {
   -webkit-transition: all 0.9s;
   transition: all 0.9s;
 }
+
 .navbar .nav-link {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
 }
+
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
   color: #fff;
   text-decoration: none;
 }
+
 .navbar .navbar-brand {
   color: #fff;
   font-size: 24px;
 }
+
 .navbar.active {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    color-stop(39.58%, #0c4584),
-    color-stop(69.79%, rgba(12, 69, 132, 0.79)),
-    to(rgba(0, 114, 164, 0.09))
-  );
-  background: linear-gradient(
-    90deg,
-    #0c4584 39.58%,
-    rgba(12, 69, 132, 0.79) 69.79%,
-    rgba(0, 114, 164, 0.09) 100%
-  );
+  background: -webkit-gradient(linear,
+      left top,
+      right top,
+      color-stop(39.58%, #0c4584),
+      color-stop(69.79%, rgba(12, 69, 132, 0.79)),
+      to(rgba(0, 114, 164, 0.09)));
+  background: linear-gradient(90deg,
+      #0c4584 39.58%,
+      rgba(12, 69, 132, 0.79) 69.79%,
+      rgba(0, 114, 164, 0.09) 100%);
   -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.4);
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.4);
 }
+
 .navbar.active .nav-link {
   color: #fff;
 }
+
 .navbar.active .nav-link:hover,
 .navbar.active .nav-link:focus {
   color: #fff;
   text-decoration: none;
 }
+
 .navbar.active .navbar-brand {
   color: #fff;
 }
+
 .bg-footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .bg-footer.bg-cc {
   background-image: url("../images/home/TB-home-CC.png");
 }
+
 .bg-footer.bg-cs {
   background-image: url("../images/home/TB-home-CS.png");
 }
+
 .bg-footer.bg-ps {
   background-image: url("../images/home/TB-home-PS.png");
 }
+
 .bg-footer.bg-la {
   background-image: url("../images/home/TB-home-LS.png");
 }
+
 .bg {
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .bg.bg-banner {
   background-image: url("../images/home/01-top-banner.png");
 }
+
 .bg.bg-intro {
   background-image: url("../images/home/02-Intro-BG.png");
 }
+
 .bg.bg-intro-covid {
   background-image: url("../images/home/17-COVID19-banner-01.png");
 }
+
 .bg.bg-cs {
   background-image: url("../images/home/TB-home-CS.png");
 }
+
 .bg.bg-ps {
   background-image: url("../images/home/TB-home-PS.png");
 }
+
 .bg.bg-la {
   background-image: url("../images/home/TB-home-LS.png");
 }
+
 .home-page .bg-home .bg-home-header {
   position: absolute;
   top: 50%;
@@ -102,6 +121,7 @@ section {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
 .home-page .bg-home .bg-home-header h1 {
   color: #fff;
   font-weight: 500;
@@ -112,6 +132,7 @@ section {
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
+
 .home-page .bg-home .bg-home-header h3 {
   font-weight: normal;
   font-size: 36px;
@@ -122,6 +143,7 @@ section {
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
+
 .home-page .bg-home .bg-home-header h6 {
   color: #fff;
   font-weight: normal;
@@ -133,43 +155,51 @@ section {
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   padding-top: 10px;
 }
+
 @-webkit-keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0;
   }
+
   100% {
     -webkit-filter: blur(0px);
     filter: blur(0px);
     opacity: 1;
   }
 }
+
 @keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0;
   }
+
   100% {
     -webkit-filter: blur(0px);
     filter: blur(0px);
     opacity: 1;
   }
 }
+
 .home-page .home-intro {
   position: relative;
   height: 100%;
 }
+
 .home-page .home-intro .intro-content {
   padding: 15% 10% 10% 0;
 }
+
 .home-page .home-intro .intro-content h1 {
   font-size: 24px;
   line-height: 103.69%;
   letter-spacing: 0.05em;
   color: #5bcae6;
 }
+
 .home-page .home-intro .intro-content p {
   font-weight: 300;
   font-size: 15px;
@@ -178,6 +208,7 @@ section {
   color: #fff;
   margin: 4% 0;
 }
+
 .home-page .home-intro .intro-content h4 {
   font-weight: bold;
   font-size: 15px;
@@ -185,6 +216,7 @@ section {
   letter-spacing: 0.08em;
   color: #fff;
 }
+
 .home-page .home-intro .intro-content span {
   font-weight: bold;
   font-size: 15px;
@@ -192,25 +224,30 @@ section {
   letter-spacing: 0.08em;
   color: #5bcae6;
 }
+
 footer {
   background-color: #2c2c2c;
   padding: 2% 5%;
   color: #9a9999;
 }
+
 footer span {
   float: right;
 }
+
 .intro-video {
   width: 100%;
   height: 100vh;
   overflow: hidden;
 }
+
 .intro-video video {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
+
 .intro-video .white-line {
   display: block;
   height: 1px;
@@ -220,6 +257,7 @@ footer span {
   z-index: 10;
   margin: 0 5%;
 }
+
 .intro-video .videobg-container {
   width: 100%;
   height: 100vh;
@@ -237,27 +275,24 @@ footer span {
   -ms-flex-align: center;
   align-items: center;
   position: absolute;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#00a1e8),
-    color-stop(0%, #00a1e8),
-    color-stop(0.01%, #1a75be),
-    color-stop(0.02%, #0f87cf),
-    color-stop(0.03%, rgba(21, 88, 154, 0.02)),
-    color-stop(0.52%, #1e026c50)
-  );
-  background: linear-gradient(
-    180deg,
-    #00a1e8 0%,
-    #00a1e8 0%,
-    #1a75be 0.01%,
-    #0f87cf 0.02%,
-    rgba(21, 88, 154, 0.02) 0.03%,
-    #1e026c50 0.52%
-  );
+  background: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(#00a1e8),
+      color-stop(0%, #00a1e8),
+      color-stop(0.01%, #1a75be),
+      color-stop(0.02%, #0f87cf),
+      color-stop(0.03%, rgba(21, 88, 154, 0.02)),
+      color-stop(0.52%, #1e026c50));
+  background: linear-gradient(180deg,
+      #00a1e8 0%,
+      #00a1e8 0%,
+      #1a75be 0.01%,
+      #0f87cf 0.02%,
+      rgba(21, 88, 154, 0.02) 0.03%,
+      #1e026c50 0.52%);
 }
+
 .intro-video .videobg-container div {
   position: absolute;
   opacity: 0;
@@ -265,12 +300,14 @@ footer span {
   text-align: center;
   color: #fff;
 }
+
 .intro-video .videobg-container div:nth-child(1) {
   font-size: 96px;
   line-height: 80px;
   letter-spacing: 0.055em;
   display: none;
 }
+
 .intro-video .videobg-container div:nth-child(2) {
   font-style: normal;
   font-weight: normal;
@@ -279,42 +316,49 @@ footer span {
   position: relative;
   left: 7px;
 }
+
 .intro-video .videobg-container div:nth-child(3) {
   font-weight: normal;
   font-size: 81px;
   line-height: 85px;
   letter-spacing: 0.11em;
 }
+
 .intro-video .videobg-container div:nth-child(3) h3 {
   color: #fff;
   font-size: 81px;
   font-weight: normal;
   letter-spacing: 0.11em;
 }
+
 .intro-video .videobg-container div:nth-child(4) {
   font-weight: normal;
   font-size: 81px;
   line-height: 85px;
   letter-spacing: 0.11em;
 }
+
 .intro-video .videobg-container div:nth-child(5) {
   font-weight: normal;
   font-size: 81px;
   line-height: 85px;
   letter-spacing: 0.11em;
 }
+
 .intro-video .videobg-container div:nth-child(5) h3 {
   color: #fff;
   font-size: 81px;
   font-weight: normal;
   letter-spacing: 0.11em;
 }
+
 .intro-video .videobg-container div:nth-child(6) {
   font-weight: normal;
   font-size: 81px;
   line-height: 85px;
   letter-spacing: 0.11em;
 }
+
 .intro-video .videobg-container div:nth-child(7) {
   font-weight: normal;
   font-size: 81px;
@@ -322,12 +366,14 @@ footer span {
   letter-spacing: 0.11em;
   color: #fff;
 }
+
 .intro-video .videobg-container div:nth-child(7) h3 {
   font-size: 81px;
   font-weight: normal;
   letter-spacing: 0.11em;
   color: #fff;
 }
+
 .intro-video .videobg-container div h1 {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
@@ -339,6 +385,7 @@ footer span {
   letter-spacing: 0.055em;
   display: inline-block;
 }
+
 .intro-video .videobg-container div h2 {
   font-weight: normal;
   font-size: 36px;
@@ -346,12 +393,7 @@ footer span {
   text-align: right;
   letter-spacing: 0.055em;
 }
-.source-text {
-  text-align: left !important;
-  position: absolute;
-  font-size: 12px !important;
-  color: #999999 !important;
-}
+
 .extra-text-on-img {
   text-align: right;
   font-weight: bold;
@@ -359,20 +401,25 @@ footer span {
   color: #15589a;
   padding: 2% 5%;
 }
+
 .home-parallax .parallax-bgimg {
   position: relative;
   z-index: 2;
 }
+
 .home-parallax .parallax-bgimg img {
   width: 100%;
 }
+
 .home-parallax .parallax-content {
   position: relative;
 }
+
 .home-parallax .parallax-content .container {
   position: relative;
   z-index: 2;
 }
+
 .home-parallax .parallax-content .extra-heading {
   font-size: 21px;
   line-height: 150%;
@@ -381,9 +428,11 @@ footer span {
   width: 80%;
   padding-bottom: 5%;
 }
+
 .home-parallax .parallax-content .padding-5 {
   padding: 5%;
 }
+
 .home-parallax .parallax-content .white-box {
   display: inline-block;
   background-color: #fff;
@@ -394,6 +443,7 @@ footer span {
   bottom: 125px;
   z-index: 3;
 }
+
 .home-parallax .parallax-content .white-box span {
   font-weight: 500;
   font-size: 50px;
@@ -405,9 +455,11 @@ footer span {
   border-right: 1px solid;
   min-height: 120px;
 }
+
 .home-parallax .parallax-content .parallax-graph {
   padding-bottom: 10%;
 }
+
 .home-parallax .parallax-content .parallax-graph h1 {
   font-weight: 900;
   font-size: 33px;
@@ -415,17 +467,20 @@ footer span {
   color: #15589a;
   width: 55%;
 }
+
 .home-parallax .parallax-content .parallax-graph .hr-line {
   background-color: #5bcae6;
   height: 2px;
   display: block;
   margin: 1% 0;
 }
+
 .home-parallax .parallax-content .parallax-graph .parallax-graph-image {
   background-color: #fff;
   text-align: center;
   position: relative;
 }
+
 .home-parallax .parallax-content .parallax-graph .parallax-graph-image span {
   display: block;
   text-align: right;
@@ -437,6 +492,7 @@ footer span {
   color: #333333;
   padding: 0 5% 5%;
 }
+
 .home-parallax .parallax-content .parallax-graph .parallax-graph-image p {
   font-weight: normal;
   font-size: 16px;
@@ -447,11 +503,8 @@ footer span {
   float: right;
   width: 40%;
 }
-.home-parallax
-  .parallax-content
-  .parallax-graph
-  .parallax-graph-image
-  .graph-text1 {
+
+.home-parallax .parallax-content .parallax-graph .parallax-graph-image .graph-text1 {
   font-weight: bold;
   font-size: 24px;
   line-height: 130%;
@@ -460,11 +513,8 @@ footer span {
   text-align: left;
   color: #15589a;
 }
-.home-parallax
-  .parallax-content
-  .parallax-graph
-  .parallax-graph-image
-  .graph-text2 {
+
+.home-parallax .parallax-content .parallax-graph .parallax-graph-image .graph-text2 {
   font-weight: bold;
   font-size: 24px;
   line-height: 130%;
@@ -473,9 +523,11 @@ footer span {
   text-align: left;
   color: #15589a;
 }
+
 .home-parallax .parallax-content .parallax-graph .parallax-graph-image img {
   width: 90%;
 }
+
 .parallax-covid .covid-header {
   font-weight: normal;
   font-size: 130px;
@@ -489,6 +541,7 @@ footer span {
   transform: translate(-50%, -50%);
   font-size: 90px;
 }
+
 .parallax-covid .covid-header h1 {
   font-weight: normal;
   font-size: 130px;
@@ -497,6 +550,7 @@ footer span {
   display: inline-block;
   font-size: 90px;
 }
+
 .parallax-covid .covid-header h2 {
   font-weight: 500;
   font-size: 36px;
@@ -505,40 +559,41 @@ footer span {
   letter-spacing: 0.055em;
   color: #98e1f3;
 }
+
 .gradient-bg {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#00a1e8),
-    color-stop(0%, #00a1e8),
-    color-stop(0.01%, #1a75be),
-    color-stop(0.02%, #0f87cf),
-    color-stop(0.03%, #15589a),
-    color-stop(92.71%, #072d55)
-  );
-  background: linear-gradient(
-    90deg,
-    #00a1e8 0%,
-    #00a1e8 0%,
-    #1a75be 0.01%,
-    #0f87cf 0.02%,
-    #15589a 0.03%,
-    #072d55 92.71%
-  );
+  background: -webkit-gradient(linear,
+      left top,
+      right top,
+      from(#00a1e8),
+      color-stop(0%, #00a1e8),
+      color-stop(0.01%, #1a75be),
+      color-stop(0.02%, #0f87cf),
+      color-stop(0.03%, #15589a),
+      color-stop(92.71%, #072d55));
+  background: linear-gradient(90deg,
+      #00a1e8 0%,
+      #00a1e8 0%,
+      #1a75be 0.01%,
+      #0f87cf 0.02%,
+      #15589a 0.03%,
+      #072d55 92.71%);
 }
+
 .gradient-bg.mt-40 {
   margin-top: 40%;
 }
+
 .gradient-bg .new-pattern {
   position: absolute;
   right: 0;
 }
+
 .gradient-bg .year-100 {
   position: relative;
   z-index: 1;
   padding: 15% 0 0 0;
 }
+
 .gradient-bg .year-100 h1 {
   font-weight: bold;
   font-size: 30px;
@@ -552,9 +607,11 @@ footer span {
   width: 700px;
   z-index: 1;
 }
+
 .gradient-bg .year-100 h1 span {
   color: #ffffff;
 }
+
 .gradient-bg .year-100 h2 {
   font-weight: bold;
   font-size: 32px;
@@ -567,6 +624,7 @@ footer span {
   z-index: 1;
   top: 40%;
 }
+
 .gradient-bg .year-100 h3 {
   font-weight: bold;
   font-size: 32px;
@@ -579,15 +637,18 @@ footer span {
   z-index: 1;
   top: 40%;
 }
+
 .gradient-bg .year-100 img {
   width: 100%;
 }
+
 .gradient-bg .gragh-section {
   padding: 10% 0 30%;
   margin: 10% 15% 0;
   position: relative;
   z-index: 2;
 }
+
 .gradient-bg .gragh-section h1 {
   font-weight: bold;
   font-size: 34px;
@@ -598,41 +659,49 @@ footer span {
   text-align: right;
   padding-left: 45%;
 }
+
 .gradient-bg .gragh-section h1 span {
   color: #98e1f3;
 }
+
 .gradient-bg .gragh-section .hr-line {
   height: 2px;
   background-color: #98e1f3;
   display: block;
   margin: 2% 0;
 }
+
 .gradient-bg .gragh-section img {
   width: 100%;
   background-color: #fff;
   position: absolute;
   z-index: 1;
 }
+
 .no-gradient-graph .relative-div {
   position: relative;
   z-index: 1;
   bottom: 175px;
   width: 50%;
 }
+
 .no-gradient-graph .relative-div img {
   width: 100%;
 }
+
 .no-gradient-graph .new-pattern {
   position: absolute;
   right: 0;
   top: 5%;
 }
+
 .no-gradient-graph .new-pattern-left {
   position: absolute;
   left: 0;
   bottom: 45%;
   z-index: 0;
 }
+
 .no-gradient-graph h1 {
   font-weight: bold;
   font-size: 34px;
@@ -641,12 +710,14 @@ footer span {
   color: #15589a;
   width: 50%;
 }
+
 .no-gradient-graph .hr-line {
   height: 2px;
   background-color: #98e1f3;
   display: block;
   margin: 2% 0;
 }
+
 .no-gradient-graph .final-graphs {
   background-color: #fff;
   text-align: center;
@@ -654,49 +725,51 @@ footer span {
   margin-bottom: 10%;
   position: relative;
 }
+
 .no-gradient-graph .final-graphs img {
   width: 85%;
 }
+
 .no-gradient-graph .saviours {
   margin: 0 15%;
   position: absolute;
   width: 70%;
   z-index: 1;
 }
+
 .no-gradient-graph .saviours h1 {
   width: 100%;
   padding-left: 0%;
   text-align: right;
   font-size: 30px;
 }
+
 .no-gradient-graph .saviours img {
   width: 100%;
   position: relative;
   z-index: 3;
 }
+
 .no-gradient-graph .closer-section {
   position: relative;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#00a1e8),
-    color-stop(0%, #00a1e8),
-    color-stop(0.01%, #1a75be),
-    color-stop(0.02%, #0f87cf),
-    color-stop(0.03%, #15589a),
-    color-stop(92.71%, #072d55)
-  );
-  background: linear-gradient(
-    90deg,
-    #00a1e8 0%,
-    #00a1e8 0%,
-    #1a75be 0.01%,
-    #0f87cf 0.02%,
-    #15589a 0.03%,
-    #072d55 92.71%
-  );
+  background: -webkit-gradient(linear,
+      left top,
+      right top,
+      from(#00a1e8),
+      color-stop(0%, #00a1e8),
+      color-stop(0.01%, #1a75be),
+      color-stop(0.02%, #0f87cf),
+      color-stop(0.03%, #15589a),
+      color-stop(92.71%, #072d55));
+  background: linear-gradient(90deg,
+      #00a1e8 0%,
+      #00a1e8 0%,
+      #1a75be 0.01%,
+      #0f87cf 0.02%,
+      #15589a 0.03%,
+      #072d55 92.71%);
 }
+
 .no-gradient-graph .closer-section .flat-bg {
   background-color: #15589a;
   height: 350px;
@@ -704,6 +777,7 @@ footer span {
   position: relative;
   z-index: 1;
 }
+
 .no-gradient-graph .closer-section .flat-bg h5 {
   font-weight: bold;
   font-size: 18px;
@@ -711,19 +785,23 @@ footer span {
   letter-spacing: 0.07em;
   color: #f5f5f5;
 }
+
 .no-gradient-graph .closer-section .col-sm-3 img {
   width: 100%;
 }
+
 .no-gradient-graph .closer-section .closer-summary {
   padding-top: 20%;
   position: relative;
 }
+
 .no-gradient-graph .closer-section .closer-summary img {
   position: absolute;
   left: 21%;
   top: 59%;
   width: 25%;
 }
+
 .no-gradient-graph .closer-section .closer-summary p {
   background-color: rgba(7, 45, 85, 0.5);
   font-weight: bold;
@@ -734,16 +812,19 @@ footer span {
   padding: 5% 10% 5% 15%;
   margin-left: 34%;
 }
+
 .no-gradient-graph .closer-section .closer-summary-2 {
   padding-top: 20%;
   position: relative;
 }
+
 .no-gradient-graph .closer-section .closer-summary-2 img {
   position: absolute;
   right: 20%;
   top: 44%;
   width: 25%;
 }
+
 .no-gradient-graph .closer-section .closer-summary-2 p {
   background-color: rgba(7, 45, 85, 0.5);
   font-weight: bold;
@@ -754,6 +835,7 @@ footer span {
   padding: 5% 20% 7% 15%;
   margin-right: 34%;
 }
+
 .no-gradient-graph .closer-section .closer-summary-2 span {
   color: #ffffff;
   display: block;
@@ -761,6 +843,7 @@ footer span {
   bottom: 10px;
   font-size: 14px;
 }
+
 .no-gradient-graph .closer-section .closer-summary-2 span img {
   position: relative;
   -webkit-transform: rotate(180deg);
@@ -768,10 +851,12 @@ footer span {
   bottom: 35px;
   left: -2px;
 }
+
 .no-gradient-graph .closer-section .the-end {
   position: relative;
   z-index: 2;
 }
+
 .no-gradient-graph .closer-section .the-end .col-sm-12 {
   font-weight: 900;
   font-size: 40px;
@@ -782,10 +867,12 @@ footer span {
   margin-bottom: 30px;
   min-height: 300px;
 }
+
 .no-gradient-graph .closer-section .the-end .col-sm-12:hover {
   background-color: #00b8e7;
   background-image: none;
 }
+
 .no-gradient-graph .closer-section .the-end .col-sm-12 h1 {
   font-weight: normal;
   font-size: 40px;
@@ -794,6 +881,7 @@ footer span {
   color: #ffffff;
   width: 100%;
 }
+
 .new-h1 {
   font-weight: normal;
   font-size: 33px;
@@ -805,64 +893,77 @@ footer span {
   margin-bottom: 10%;
   margin-top: 10%;
 }
+
 .pattern-image1 {
   position: absolute;
   top: 0;
   right: 0;
   z-index: 0;
 }
+
 .pattern-image1 img {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
+
 .pattern-image2 {
   position: absolute;
   bottom: 0;
   left: 0;
   z-index: 1;
 }
+
 .pattern-image2 img {
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1);
 }
+
 .pattern-image3 {
   position: absolute;
   bottom: -25%;
   left: 0;
   z-index: -1;
 }
+
 .pattern-image3 img {
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1);
 }
+
 .parallax-image {
   z-index: 1;
   position: relative;
 }
+
 .super-circle {
   width: 100%;
 }
+
 .img-src {
   position: absolute;
   left: 8%;
   bottom: 15%;
   width: 30% !important;
 }
+
 .img-src2 {
   position: absolute;
   left: 12%;
   bottom: 10%;
   width: 30% !important;
 }
+
 .bg-trend .hero-title-sec {
   padding-top: 10px;
   margin-left: 15%;
   position: relative;
   width: 80%;
 }
+
 .bg-trend h1.home-banner-title {
   width: 100%;
 }
+
 .bg-trend h1.hero-banner-title {
   color: #fff;
   font-weight: bold;
@@ -873,6 +974,7 @@ footer span {
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
+
 .bg-trend h6.hero-banner-cont {
   color: #fff;
   font-size: 18px;
@@ -883,6 +985,7 @@ footer span {
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
+
 .year-2020 {
   position: absolute;
   left: 0;
@@ -895,16 +998,19 @@ footer span {
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
+
 .footer-link {
   font-size: 16px;
   color: #9a9999;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .footer-link:hover {
   color: #9a9999;
   text-decoration: none;
 }
+
 .the-end a {
   color: #ffffff;
   text-decoration: none;
@@ -919,140 +1025,169 @@ footer span {
   width: 100%;
   padding: 20%;
 }
+
 .the-end a:hover {
   color: #ffffff;
   text-decoration: none;
 }
+
 @media (max-width: 1024px) {
   .navbar {
     background: #2266b0;
     color: #fff;
   }
+
   .navbar .navbar-brand {
     color: #fff;
     font-size: 16px;
   }
+
   .navbar .navbar-brand img {
     width: 60px;
   }
+
   .navbar .fa {
     color: #fff;
   }
+
   .home-parallax .parallax-content .parallax-graph h1 {
     font-size: 20px;
   }
-  .home-parallax
-    .parallax-content
-    .parallax-graph
-    .parallax-graph-image
-    .graph-text1 {
+
+  .home-parallax .parallax-content .parallax-graph .parallax-graph-image .graph-text1 {
     font-size: 16px;
   }
-  .home-parallax
-    .parallax-content
-    .parallax-graph
-    .parallax-graph-image
-    .graph-text2 {
+
+  .home-parallax .parallax-content .parallax-graph .parallax-graph-image .graph-text2 {
     font-size: 16px;
   }
+
   .home-parallax .parallax-content .parallax-graph .parallax-graph-image p {
     font-size: 12px;
   }
+
   .home-parallax .parallax-content .white-box span {
     font-size: 30px;
     line-height: initial;
     min-height: 80px;
   }
+
   .home-parallax .parallax-content .extra-heading {
     font-size: 14px;
   }
+
   .gradient-bg .gragh-section h1 {
     font-size: 20px;
   }
+
   .gradient-bg .year-100 h1 {
     width: 400px;
     font-size: 16px;
     line-height: inherit;
   }
+
   .gradient-bg .year-100 h2 {
     width: 400px;
     font-size: 16px;
     line-height: inherit;
   }
+
   .gradient-bg .year-100 h3 {
     width: 400px;
     font-size: 16px;
     line-height: inherit;
   }
+
   .no-gradient-graph h1 {
     font-size: 20px;
   }
+
   .no-gradient-graph .saviours h1 {
     font-size: 20px;
   }
+
   .no-gradient-graph .closer-section .closer-summary p {
     font-size: 12px;
   }
+
   .no-gradient-graph .closer-section .flat-bg h5 {
     font-size: 12px;
   }
+
   .no-gradient-graph .closer-section .the-end .col-sm-12 {
     font-size: 26px;
     min-height: 200px;
     line-height: inherit;
   }
+
   .extra-text-on-img {
     font-size: 16px;
   }
+
   .new-h1 {
     font-size: 24px;
   }
+
   .bg-trend h1.hero-banner-title {
     font-size: 48px;
     line-height: initial;
   }
+
   .bg-trend h6.hero-banner-cont {
     font-size: 12px;
   }
+
   .parallax-image img {
     width: 70%;
   }
+
   .home-page .home-intro .intro-content {
     padding: 10%;
   }
+
   .home-page .home-intro .intro-content h1 {
     font-size: 16px;
   }
+
   .home-page .home-intro .intro-content p {
     font-size: 10px;
   }
+
   .home-page .home-intro .intro-content h4 {
     font-size: 12px;
   }
+
   .home-page .home-intro .intro-content span {
     font-size: 12px;
   }
+
   .parallax-covid .covid-header {
     font-size: 50px;
     letter-spacing: 0;
   }
+
   .parallax-covid .covid-header h1 {
     font-size: 50px;
   }
+
   .intro-video .videobg-container div {
     font-size: 50px !important;
   }
+
   .intro-video .videobg-container div h1 {
     font-size: 50px !important;
   }
+
   .intro-video .videobg-container div h2 {
     font-size: 24px;
     line-height: initial;
   }
+
   .intro-video .videobg-container div h3 {
     font-size: 50px !important;
   }
 }
+
 .error {
   display: none;
   position: fixed;
@@ -1063,16 +1198,19 @@ footer span {
   top: 30%;
   left: 10%;
 }
+
 @media all and (max-width: 768px) {
   .container-fluid {
     display: none;
   }
+
   .error {
     display: block;
     font-size: 24px;
     font-weight: bold;
   }
 }
+
 .dear-reader {
   position: absolute;
   top: 21%;
@@ -1080,6 +1218,7 @@ footer span {
   font-size: 50px;
   color: #5bcae6;
 }
+
 .header-class {
   position: absolute;
   z-index: 1;

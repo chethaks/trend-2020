@@ -162,8 +162,6 @@ button:focus {
 
 /* HAMBURGER BAR END */
 
-
-
 /* SUBMENU STYLES START */
 .dropdown-menu {
     background: rgba(21, 88, 154, 0.98);
@@ -299,4 +297,4 @@ button:focus {
     position: absolute;
     z-index: 1;
     width: 100%;
-  }
+}

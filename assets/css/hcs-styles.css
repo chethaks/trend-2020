@@ -6,7 +6,6 @@ html {
   -webkit-overflow-scrolling: inherit;
 }
 
-
 /* HERO BANNER TEXT STYLE START */
 .bg.bg-banner {
   background-image: url("../images/hcs/hcs-top-banner.png");
@@ -179,7 +178,7 @@ html {
   transition: all 0.3s ease-in-out;
 }
 
-.trends-list-item li .trends-card-arrow{
+.trends-list-item li .trends-card-arrow {
   position: absolute;
   right: 16px;
   bottom: 16px;
@@ -207,7 +206,6 @@ html {
   color: #fff;
 }
 
-
 /* CONNECTED LIFESTYLE 1 STYLES START */
 
 .con-lifestyle1 {
@@ -223,21 +221,10 @@ html {
 
 .con-lifestyle1 .global-title {
   border-bottom: 1px solid #2266b0;
-  margin: 15px 0;
 }
 
 .con-lifestyle1 h1.w40 {
   display: inline-block;
-}
-
-.con-lifestyle1 h1 {
-  color: #2266b0;
-  font-weight: 900;
-  font-size: 30px;
-  line-height: 35px;
-  letter-spacing: 0.1em;
-  margin: 0;
-  border-bottom: 5px solid #2266b0;
 }
 
 .con-lifestyle1 .conn-lifestyle {
@@ -246,16 +233,12 @@ html {
   position: relative;
 }
 
-
 .con-lifestyle1 .conn-lifestyle .cont-bluebg {
   position: absolute;
   left: 0;
   width: 39%;
-  /* padding: 50px 10%; */
   background: #2367B1;
   color: #fff;
-  /* font-size: 17px;
-  line-height: 26px; */
   font-weight: normal;
 }
 
@@ -293,8 +276,6 @@ html {
 
 /* CONNECTED LIFESTYLE 1 STYLES END */
 
-
-
 /* CONNECTED LIFESTYLE2 STYLES START */
 .con-lifestyle2 {
   background-image: url(../images/hcs/bg-pattern-left.jpg), url(../images/hcs/bg-pattern-right.jpg);
@@ -324,11 +305,8 @@ html {
   position: absolute;
   left: 0;
   width: 43%;
-  /* padding: 50px 6% 50px 6%; */
   background: #fff;
   color: #2367B1;
-  /* font-size: 17px;
-  line-height: 26px; */
   font-weight: normal;
 }
 
@@ -397,21 +375,10 @@ html {
 
 .voice-ai .global-title {
   border-bottom: 1px solid #2266b0;
-  margin: 15px 0;
 }
 
 .voice-ai h1.w40 {
   display: inline-block;
-}
-
-.voice-ai h1 {
-  color: #2266b0;
-  font-weight: 900;
-  font-size: 30px;
-  line-height: 35px;
-  letter-spacing: 0.1em;
-  margin: 0;
-  border-bottom: 5px solid #2266b0;
 }
 
 .voice-ai .voice-ai-section {
@@ -420,16 +387,12 @@ html {
   position: relative;
 }
 
-
 .voice-ai .voice-ai-section .cont-whitebg {
   position: absolute;
   right: 0;
   width: 44%;
-  /* padding: 50px 10%; */
   background: #fff;
   color: #2266B0;
-  /* font-size: 17px;
-  line-height: 26px; */
   font-weight: normal;
 }
 
@@ -488,21 +451,10 @@ html {
 
 .edge-cloud-computing .global-title {
   border-bottom: 1px solid #2266b0;
-  margin: 15px 0;
 }
 
 .edge-cloud-computing h1.w40 {
   display: inline-block;
-}
-
-.edge-cloud-computing h1 {
-  color: #2266b0;
-  font-weight: 900;
-  font-size: 30px;
-  line-height: 35px;
-  letter-spacing: 0.1em;
-  margin: 0;
-  border-bottom: 5px solid #2266b0;
 }
 
 .edge-cloud-computing .cloud-computing {
@@ -511,16 +463,12 @@ html {
   position: relative;
 }
 
-
 .edge-cloud-computing .cloud-computing .cont-bluebg {
   position: absolute;
   left: 0;
   width: 39%;
-  /* padding: 50px 10%; */
   background: #2367B1;
   color: #fff;
-  /* font-size: 17px;
-  line-height: 26px; */
   font-weight: normal;
 }
 
@@ -573,21 +521,10 @@ html {
 
 .data-mngt-security .global-title {
   border-bottom: 1px solid #2266b0;
-  margin: 15px 0;
 }
 
 .data-mngt-security h1.w40 {
   display: inline-block;
-}
-
-.data-mngt-security h1 {
-  color: #2266b0;
-  font-weight: 900;
-  font-size: 30px;
-  line-height: 35px;
-  letter-spacing: 0.1em;
-  margin: 0;
-  border-bottom: 5px solid #2266b0;
 }
 
 .data-mngt-security .data-mngement-security {
@@ -601,11 +538,8 @@ html {
   position: absolute;
   right: 0;
   width: 44%;
-  /* padding: 50px 10%; */
   background: #2367B1;
   color: #fff;
-  /* font-size: 17px;
-  line-height: 26px; */
   font-weight: normal;
 }
 
@@ -676,21 +610,10 @@ html {
 
 .exp-platform-section .global-title {
   border-bottom: 1px solid #2266b0;
-  margin: 15px 0;
 }
 
 .exp-platform-section h1.w40 {
   display: inline-block;
-}
-
-.exp-platform-section h1 {
-  color: #2266b0;
-  font-weight: 900;
-  font-size: 30px;
-  line-height: 35px;
-  letter-spacing: 0.1em;
-  margin: 0;
-  border-bottom: 5px solid #2266b0;
 }
 
 .exp-platform-section .exp-platform {
@@ -704,11 +627,8 @@ html {
   position: absolute;
   right: 0;
   width: 42%;
-  /* padding: 50px 10%; */
   background: #fff;
   color: #2266B0;
-  /* font-size: 17px;
-  line-height: 26px; */
   font-weight: normal;
 }
 
@@ -767,21 +687,10 @@ html {
 
 .platform-innovation-section .global-title {
   border-bottom: 1px solid #2266b0;
-  margin: 15px 0;
 }
 
 .platform-innovation-section h1.w40 {
   display: inline-block;
-}
-
-.platform-innovation-section h1 {
-  color: #2266b0;
-  font-weight: 900;
-  font-size: 30px;
-  line-height: 35px;
-  letter-spacing: 0.1em;
-  margin: 0;
-  border-bottom: 5px solid #2266b0;
 }
 
 .platform-innovation-section .platform-innovation {
@@ -790,16 +699,12 @@ html {
   position: relative;
 }
 
-
 .platform-innovation-section .platform-innovation .cont-whitebg {
   position: absolute;
   left: 0;
   width: 42%;
-  /* padding: 50px 10%; */
   background: #fff;
   color: #2367B1;
-  /* font-size: 17px;
-  line-height: 26px; */
   font-weight: normal;
 }
 
@@ -858,9 +763,6 @@ html {
 }
 
 /* PLATFORM BASED INNOVATION STYLES END */
-
-
-
 
 /* CLOSING CONTENT STYLES START */
 .closing-cont-section {
@@ -951,9 +853,7 @@ html {
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
-  .voice-ai .voice-ai-section {
-    /* min-height: 700px; */
-  }
+  
 }
 
 .extra-heading {
@@ -966,7 +866,6 @@ html {
   padding-left: 10%;
   padding-bottom: 2%;
 }
-
 
 .voiceai-image {
   max-height: 500px;

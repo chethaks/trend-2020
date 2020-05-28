@@ -37,8 +37,6 @@ $("#hcs-connected-lifestyle").click(function () {
 });
 // HCS CLICK DOWN ARROW END
 
-
-
 // CC BOX1 CLICK DOWN ARROW START
 $("#gao-glblol-bx1").click(function () {
   $("html, body").animate(
@@ -50,7 +48,6 @@ $("#gao-glblol-bx1").click(function () {
   return false;
 });
 // CC BOX1 CLICK DOWN ARROW END
-
 
 // CC BOX2 CLICK DOWN ARROW START
 $("#gao-glblol-bx2").click(function () {
@@ -64,7 +61,6 @@ $("#gao-glblol-bx2").click(function () {
 });
 // CC BOX2 CLICK DOWN ARROW END
 
-
 // CC BOX3 CLICK DOWN ARROW START
 $("#gao-glblol-bx3").click(function () {
   $("html, body").animate(
@@ -77,7 +73,6 @@ $("#gao-glblol-bx3").click(function () {
 });
 // CC BOX3 CLICK DOWN ARROW END
 
-
 // CC BOX4 CLICK DOWN ARROW START
 $("#gao-glblol-bx4").click(function () {
   $("html, body").animate(
@@ -89,8 +84,6 @@ $("#gao-glblol-bx4").click(function () {
   return false;
 });
 // CC BOX4 CLICK DOWN ARROW END
-
-
 
 // LS BOX1 CLICK DOWN ARROW START
 $("#ls-mt-bx1").click(function () {
@@ -116,7 +109,6 @@ $("#ls-mt-bx2").click(function () {
 });
 // LS BOX2 CLICK DOWN ARROW END
 
-
 // LS BOX3 CLICK DOWN ARROW START
 $("#ls-mt-bx3").click(function () {
   $("html, body").animate(
@@ -128,7 +120,6 @@ $("#ls-mt-bx3").click(function () {
   return false;
 });
 // LS BOX3 CLICK DOWN ARROW END
-
 
 // LS BOX4 CLICK DOWN ARROW START
 $("#ls-mt-bx4").click(function () {
@@ -142,7 +133,6 @@ $("#ls-mt-bx4").click(function () {
 });
 // LS BOX4 CLICK DOWN ARROW END
 
-
 // LS BOX5 CLICK DOWN ARROW START
 $("#ls-mt-bx5").click(function () {
   $("html, body").animate(
@@ -154,7 +144,6 @@ $("#ls-mt-bx5").click(function () {
   return false;
 });
 // LS BOX5 CLICK DOWN ARROW END
-
 
 // CS BOX1 CLICK DOWN ARROW START
 $("#cs-mt-bx1").click(function () {
@@ -216,17 +205,6 @@ $("#cs-mt-bx5").click(function () {
 });
 // CS BOX5 CLICK DOWN ARROW END
 
-
-
-
-
-
-
-
-
-
-
-
 // LS CLICK DOWN ARROW START
 $("#ls-cons-ptrns").click(function () {
   $("html, body").animate(
@@ -238,7 +216,6 @@ $("#ls-cons-ptrns").click(function () {
   return false;
 });
 // LS CLICK DOWN ARROW END
-
 
 // PS CLICK DOWN ARROW START
 $("#vertical-darrow").click(function () {
@@ -253,9 +230,7 @@ $("#vertical-darrow").click(function () {
 });
 // PS CLICK DOWN ARROW END
 
-
 // CC CTAs START
-
 $("#cc-connectivity").click(function () {
   $("html, body").animate(
     {
@@ -265,7 +240,6 @@ $("#cc-connectivity").click(function () {
   );
   return false;
 });
-
 
 $("#cc-autonomous").click(function () {
   $("html, body").animate(
@@ -306,23 +280,10 @@ $("#new-busi-model").click(function () {
   );
   return false;
 });
-
-
-
-
-
-
 // CC CTAs END
 
-
 // PRO SOLUTION - END USER
-$("#prosol-enduser").click(function (e) {
-  // $("#end-user").addClass("show-section");
-  // $("#vertical").removeClass("show-section");
-  // $("#competitors").removeClass("show-section");
-  // $("#channel").removeClass("show-section");
-  // $("#product").removeClass("show-section");
-  // e.preventDefault();
+$("#prosol-enduser, #prosol-enduser-darrow").click(function (e) {
   $("html, body").animate(
     {
       scrollTop: $("#end-user").offset().top,
@@ -334,12 +295,6 @@ $("#prosol-enduser").click(function (e) {
 
 // PRO SOLUTION - vertical
 $("#prosol-vertical").click(function (e) {
-  // $("#end-user").removeClass("show-section");
-  // $("#vertical").addClass("show-section");
-  // $("#competitors").removeClass("show-section");
-  // $("#channel").removeClass("show-section");
-  // $("#product").removeClass("show-section");
-  // e.preventDefault();
   $("html, body").animate(
     {
       scrollTop: $("#vertical").offset().top,
@@ -349,17 +304,8 @@ $("#prosol-vertical").click(function (e) {
   return false;
 });
 
-
-
-
 // PRO SOLUTION - competitors
 $("#prosol-competitors").click(function (e) {
-  // $("#end-user").removeClass("show-section");
-  // $("#vertical").removeClass("show-section");
-  // $("#competitors").addClass("show-section");
-  // $("#channel").removeClass("show-section");
-  // $("#product").removeClass("show-section");
-  // e.preventDefault();
   $("html, body").animate(
     {
       scrollTop: $("#competitors").offset().top,
@@ -369,15 +315,8 @@ $("#prosol-competitors").click(function (e) {
   return false;
 });
 
-
 // PRO SOLUTION - channel
 $("#prosol-channel").click(function (e) {
-  // $("#end-user").removeClass("show-section");
-  // $("#vertical").removeClass("show-section");
-  // $("#competitors").removeClass("show-section");
-  // $("#channel").addClass("show-section");
-  // $("#product").removeClass("show-section");
-  // e.preventDefault();
   $("html, body").animate(
     {
       scrollTop: $("#channel").offset().top,
@@ -389,12 +328,6 @@ $("#prosol-channel").click(function (e) {
 
 // PRO SOLUTION - product
 $("#prosol-product").click(function (e) {
-  // $("#end-user").removeClass("show-section");
-  // $("#vertical").removeClass("show-section");
-  // $("#competitors").removeClass("show-section");
-  // $("#channel").removeClass("show-section");
-  // $("#product").addClass("show-section");
-  // e.preventDefault();
   $("html, body").animate(
     {
       scrollTop: $("#product").offset().top,
@@ -403,7 +336,6 @@ $("#prosol-product").click(function (e) {
   );
   return false;
 });
-
 
 /** Scroll to section */
 $("#market").click(function () {
@@ -437,11 +369,6 @@ $("#global, #cchead-global").click(function () {
 });
 
 $("#moveToConnectivity, #txt-moveToConnectivity, #sum-moveToConnectivity, #cchead-moveToConnectivity").click(function () {
-  // $('#connectivity').show();
-  // $('#autonomous').hide();
-  // $('#shared').hide();
-  // $('#electrification').hide();
-  // $('#new-business').hide();
   $("html, body").animate(
     {
       scrollTop: $("#connectivity").offset().top,
@@ -452,11 +379,6 @@ $("#moveToConnectivity, #txt-moveToConnectivity, #sum-moveToConnectivity, #cchea
 });
 
 $("#moveToAutonomous, #txt-moveToAutonomous, #sum-moveToAutonomous, #cchead-moveToAutonomous").click(function () {
-  // $('#connectivity').hide();
-  // $('#autonomous').show();
-  // $('#shared').hide();
-  // $('#electrification').hide();
-  // $('#new-business').hide();
   $("html, body").animate(
     {
       scrollTop: $("#openAutonomous").offset().top,
@@ -467,11 +389,6 @@ $("#moveToAutonomous, #txt-moveToAutonomous, #sum-moveToAutonomous, #cchead-move
 });
 
 $("#moveToMaas, #txt-moveToMaas,#sum-moveToMaas, #cchead-moveToMaas").click(function () {
-  // $('#connectivity').hide();
-  // $('#autonomous').hide();
-  // $('#shared').show();
-  // $('#electrification').hide();
-  // $('#new-business').hide();
   $("html, body").animate(
     {
       scrollTop: $("#openMaas").offset().top,
@@ -482,11 +399,6 @@ $("#moveToMaas, #txt-moveToMaas,#sum-moveToMaas, #cchead-moveToMaas").click(func
 });
 
 $("#moveToElectrification, #txt-moveToElectrification, #sum-moveToElectrification, #cchead-moveToElectrification").click(function () {
-  // $('#connectivity').hide();
-  // $('#autonomous').hide();
-  // $('#shared').hide();
-  // $('#electrification').show();
-  // $('#new-business').hide();
   $("html, body").animate(
     {
       scrollTop: $("#openElectrification").offset().top,
@@ -497,11 +409,6 @@ $("#moveToElectrification, #txt-moveToElectrification, #sum-moveToElectrificatio
 });
 
 $("#moveToNewbm, #sum-moveToNewbm, #cchead-moveToNewbm").click(function () {
-  // $('#connectivity').hide();
-  // $('#autonomous').hide();
-  // $('#shared').hide();
-  // $('#electrification').hide();
-  // $('#new-business').show();
   $("html, body").animate(
     {
       scrollTop: $("#openNewbm").offset().top,
@@ -629,7 +536,6 @@ $("#covidClick").click(function () {
   return false;
 });
 
-
 $(window).scroll(function () {
   if ($(this).scrollTop() > 12000) {
     $("#scrollTopCar").fadeIn();
@@ -648,4 +554,3 @@ $("#scrollTopCar").click(function () {
   );
   return false;
 });
-

@@ -115,8 +115,6 @@
 
 /* GLOBAL OUTLOOK SECTION 4 STYLES END */
 
-
-
 /* TRENDS IMPACTING MAIN SECTION START */
 .bg {
   height: 100vh;
@@ -177,11 +175,6 @@
 }
 
 /* TRENDS IMPACTING MAIN SECTION END */
-
-
-
-
-
 
 /* CASE STYLES START */
 .car-page .car-trends-section {
@@ -302,8 +295,6 @@ a#txt-moveToElectrification span {
 
 /* CASE STYLES END */
 
-
-
 /*  CONNECTIVITY SECTION 1 STYLES START */
 .connectivity-section1 .connectivity-sec1 {
   min-height: 500px;
@@ -331,7 +322,6 @@ a#txt-moveToElectrification span {
 }
 
 /*  CONNECTIVITY SECTION 1 STYLES END */
-
 
 /*  CONNECTIVITY SECTION 2 STYLES START */
 .connectivity-section2 .connectivity-sec2 {
@@ -362,7 +352,6 @@ a#txt-moveToElectrification span {
 
 /*  CONNECTIVITY SECTION 2 STYLES END */
 
-
 /*  CONNECTIVITY SECTION 3 STYLES START */
 .connectivity-section3 .connectivity-sec3 {
   min-height: 600px;
@@ -390,7 +379,6 @@ a#txt-moveToElectrification span {
 }
 
 /*  CONNECTIVITY SECTION 3 STYLES END */
-
 
 /*  CONNECTIVITY SECTION 4 STYLES START */
 .connectivity-section4 .connectivity-sec4 {
@@ -421,7 +409,6 @@ a#txt-moveToElectrification span {
 
 /*  CONNECTIVITY SECTION 4 STYLES END */
 
-
 /*  CONNECTIVITY SECTION 5 STYLES START */
 .connectivity-section5 .connectivity-sec5 {
   min-height: 500px;
@@ -450,8 +437,6 @@ a#txt-moveToElectrification span {
 }
 
 /*  CONNECTIVITY SECTION 5 STYLES END */
-
-
 
 /*  CONNECTIVITY SECTION 6 STYLES START */
 .connectivity-section6 .connectivity-sec6 {
@@ -482,7 +467,6 @@ a#txt-moveToElectrification span {
 
 /*  CONNECTIVITY SECTION 6 STYLES END */
 
-
 /*  CONNECTIVITY SECTION 7 STYLES START */
 .connectivity-section7 .connectivity-sec7 {
   min-height: 550px;
@@ -512,7 +496,6 @@ a#txt-moveToElectrification span {
 
 /*  CONNECTIVITY SECTION 7 STYLES END */
 
-
 /*  CONNECTIVITY SECTION 8 STYLES START */
 .connectivity-section8 .connectivity-sec8 {
   min-height: 600px;
@@ -538,12 +521,9 @@ a#txt-moveToElectrification span {
   width: 42%;
   color: #f7f7f7;
   font-size: 18px;
-
 }
 
 /*  CONNECTIVITY SECTION 8 STYLES END */
-
-
 
 /* AUTONOMOUS SECTION 1 STYLES START */
 .autonomous-section1 .autonomous-sec1 {
@@ -562,7 +542,6 @@ a#txt-moveToElectrification span {
 
 /* AUTONOMOUS SECTION 1 STYLES END */
 
-
 /* AUTONOMOUS SECTION 2 STYLES START */
 .autonomous-section2 .autonomous-sec2 {
   min-height: 580px;
@@ -579,9 +558,6 @@ a#txt-moveToElectrification span {
 }
 
 /* AUTONOMOUS SECTION 2 STYLES END */
-
-
-
 
 /*  AUTONOMOUS SECTION 3 STYLES START */
 .autonomous-section3 .autonomous-sec3 {
@@ -611,7 +587,6 @@ a#txt-moveToElectrification span {
 }
 
 /*  AUTONOMOUS SECTION 3 STYLES END */
-
 
 /* AUTONOMOUS SECTION 4 STYLES START */
 .autonomous-section4 .autonomous-sec4 {
@@ -653,7 +628,6 @@ a#txt-moveToElectrification span {
 
 /* AUTONOMOUS SECTION 4 STYLES END */
 
-
 /* AUTONOMOUS SECTION 5 STYLES START */
 .autonomous-section5 .autonomous-sec5 {
   min-height: 550px;
@@ -691,6 +665,7 @@ a#txt-moveToElectrification span {
   line-height: 155.19%;
   color: #FFFFFF;
 }
+
 .indent-bullet-point {
   position: relative;
   padding-left: 50px !important;
@@ -711,10 +686,6 @@ a#txt-moveToElectrification span {
 }
 
 /* AUTONOMOUS SECTION 5 STYLES END */
-
-
-
-
 
 /*  AUTONOMOUS SECTION 6 STYLES START */
 .autonomous-section6 .autonomous-sec6 {
@@ -745,7 +716,6 @@ a#txt-moveToElectrification span {
 
 /*  AUTONOMOUS SECTION 6 STYLES END */
 
-
 /* AUTONOMOUS SECTION 7 STYLES START */
 .autonomous-section7 .autonomous-sec7 {
   min-height: 500px;
@@ -775,11 +745,7 @@ a#txt-moveToElectrification span {
   font-size: 18px;
 }
 
-
 /* AUTONOMOUS SECTION 7 STYLES END */
-
-
-
 
 /* AUTONOMOUS SECTION 8 STYLES START */
 .autonomous-section8 .autonomous-sec8 {
@@ -804,14 +770,7 @@ a#txt-moveToElectrification span {
   background-size: cover;
 }
 
-
 /* AUTONOMOUS SECTION 8 STYLES END */
-
-
-
-
-
-
 
 /* SHARED MAAS SECTION 1 STYLES START */
 .sharedmaas-section1 .sharedmaas-sec1 {
@@ -829,8 +788,6 @@ a#txt-moveToElectrification span {
 }
 
 /* SHARED MAAS SECTION 1 STYLES END */
-
-
 
 /*  SHARED MAAS SECTION 2 STYLES START */
 .sharedmaas-section2 .sharedmaas-sec2 {
@@ -861,7 +818,6 @@ a#txt-moveToElectrification span {
 
 /*  SHARED MAAS SECTION 2 STYLES END */
 
-
 /*  SHARED MAAS SECTION 3 STYLES START */
 .sharedmaas-section3 .sharedmaas-sec3 {
   min-height: 600px;
@@ -886,12 +842,9 @@ a#txt-moveToElectrification span {
   bottom: 0;
   width: 42%;
   color: #f7f7f7;
-
 }
 
 /*  SHARED MAAS SECTION 3 STYLES END */
-
-
 
 /* SHARED MAAS SECTION 4 STYLES START */
 .sharedmaas-section4 .sharedmaas-sec4 {
@@ -909,8 +862,6 @@ a#txt-moveToElectrification span {
 }
 
 /* SHARED MAAS SECTION 1 STYLES END */
-
-
 
 /*  ELECTRIFICATION SECTION 1 STYLES START */
 .electrification-section1 .electrification-sec1 {
@@ -936,11 +887,9 @@ a#txt-moveToElectrification span {
   bottom: 0;
   width: 42%;
   color: #f7f7f7;
-
 }
 
 /*  ELECTRIFICATION SECTION 1 STYLES END */
-
 
 /*  ELECTRIFICATION SECTION 2 STYLES START */
 .electrification-section2 .electrification-sec2 {
@@ -966,11 +915,9 @@ a#txt-moveToElectrification span {
   bottom: 0;
   width: 50%;
   color: #f7f7f7;
-
 }
 
 /*  ELECTRIFICATION SECTION 2 STYLES END */
-
 
 /*  ELECTRIFICATION SECTION 3 STYLES START */
 .electrification-section3 .electrification-sec3 {
@@ -1000,8 +947,6 @@ a#txt-moveToElectrification span {
 
 /*  ELECTRIFICATION SECTION 3 STYLES END */
 
-
-
 /*  ELECTRIFICATION SECTION 4 STYLES START */
 .electrification-section4 .electrification-sec4 {
   min-height: 550px;
@@ -1029,8 +974,6 @@ a#txt-moveToElectrification span {
 }
 
 /*  ELECTRIFICATION SECTION 4 STYLES END */
-
-
 
 /*  ELECTRIFICATION SECTION 5 STYLES START */
 .electrification-section5 .electrification-sec5 {
@@ -1060,8 +1003,6 @@ a#txt-moveToElectrification span {
 
 /*  ELECTRIFICATION SECTION 5 STYLES END */
 
-
-
 /*  ELECTRIFICATION SECTION 6 STYLES START */
 .electrification-section6 .electrification-sec6 {
   min-height: 550px;
@@ -1089,8 +1030,6 @@ a#txt-moveToElectrification span {
 }
 
 /*  ELECTRIFICATION SECTION 6 STYLES END */
-
-
 
 /*  NEW BUSINESS MODELS SECTION 1 STYLES START */
 .newbusimodels-section1 .newbusimodels-sec1 {
@@ -1161,8 +1100,6 @@ a#txt-moveToElectrification span {
 
 /*  NEW BUSINESS MODELS SECTION 2 STYLES END */
 
-
-
 /*  NEW BUSINESS MODELS SECTION 3 STYLES START */
 .newbusimodels-section3 .newbusimodels-sec3 {
   min-height: 550px;
@@ -1191,7 +1128,6 @@ a#txt-moveToElectrification span {
 
 /*  NEW BUSINESS MODELS SECTION 3 STYLES END */
 
-
 /*  NEW BUSINESS MODELS SECTION 4 STYLES START */
 .newbusimodels-section4 .newbusimodels-sec4 {
   min-height: 550px;
@@ -1219,7 +1155,6 @@ a#txt-moveToElectrification span {
 }
 
 /*  NEW BUSINESS MODELS SECTION 4 STYLES END */
-
 
 /*  NEW BUSINESS MODELS SECTION 5 STYLES START */
 .newbusimodels-section5 .newbusimodels-sec5 {
@@ -1251,7 +1186,6 @@ a#txt-moveToElectrification span {
 
 /*  NEW BUSINESS MODELS SECTION 5 STYLES END */
 
-
 /*  NEW BUSINESS MODELS SECTION 6 STYLES START */
 .newbusimodels-section6 .newbusimodels-sec6 {
   min-height: 500px;
@@ -1281,8 +1215,6 @@ a#txt-moveToElectrification span {
 
 /*  NEW BUSINESS MODELS SECTION 6 STYLES END */
 
-
-
 #gao-glblol-bx1,
 #gao-glblol-bx2,
 #gao-glblol-bx3,
@@ -1290,18 +1222,10 @@ a#txt-moveToElectrification span {
   cursor: pointer;
 }
 
-
-
-
-
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .section-title {
     font-size: 30px !important;
     line-height: 34px !important;
-  }
-
-  .cont-sec {
-    padding: 50px !important;
   }
 
   .section-title span.split-title {
