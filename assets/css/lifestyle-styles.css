@@ -26,7 +26,8 @@ html {
 
 /* HERO BANNER TEXT STYLE START */
 #consumer-bgbanner {
-  background-image: url("../images/ls/ls-top-banner.png");
+  /* background-image: url("../images/ls/ls-top-banner.png"); */
+  background-image: url("../images/ps/TB_PS-header-image-01-new.jpg");
 }
 
 #prosolution-bg {
@@ -1070,7 +1071,7 @@ html {
   background-repeat: repeat-y;
   background-attachment: fixed;
   background-size: cover;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 .closing-cont-section .closing-cont {

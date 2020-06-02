@@ -257,6 +257,10 @@ section {
   margin-bottom: 40px;
 }
 
+.mb-100{
+  margin-bottom: 100px;
+}
+
 .para-cont {
   font-size: 18px !important;
   line-height: 24px;

@@ -362,7 +362,7 @@ $("#consumer-division").click(function () {
 $("#prosol-division").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#prosol-division-sec").offset().top,
+      scrollTop: $("#prosol-division-sec").offset().top + 100,
     },
     2000,
   );
