@@ -1024,6 +1024,7 @@ footer span {
   height: 100%;
   width: 100%;
   padding: 20%;
+  padding-top: 26%;
 }
 
 .the-end a:hover {
@@ -1213,7 +1214,7 @@ footer span {
 
 .dear-reader {
   position: absolute;
-  top: 21%;
+  top: 17%;
   left: 33%;
   font-size: 50px;
   color: #5bcae6;
