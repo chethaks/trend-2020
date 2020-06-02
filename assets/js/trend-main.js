@@ -338,10 +338,31 @@ $("#prosol-product").click(function (e) {
 });
 
 /** Scroll to section */
-$("#market").click(function () {
+$("#prosol-market").click(function () {
   $("html, body").animate(
     {
-      scrollTop: $("#marketSection").offset().top,
+      scrollTop: $("#prosol-markettrends").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+
+$("#consumer-division").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#consumer-trends").offset().top,
+    },
+    2000,
+  );
+  return false;
+});
+
+$("#prosol-division").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#prosol-division-sec").offset().top,
     },
     2000,
   );
