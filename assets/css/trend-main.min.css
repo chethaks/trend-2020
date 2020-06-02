@@ -154,7 +154,13 @@ section {
 }
 
 .bg-trend .bg-trend-cta .market-trend-cta {
-  background-color: #5bcae6;
+  background: linear-gradient(90deg,
+      #2266b0 0%,
+      #206ab3 26.64%,
+      #1a75be 50.78%,
+      #0f87cf 73.87%,
+      #00a1e8 96.32%,
+      #00a1e8 96.57%);
   height: 120px;
   cursor: pointer;
   font-size: 18px;

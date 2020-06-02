@@ -65,22 +65,29 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 300px;
 }
 
-.bg-footer.bg-cc {
-  background-image: url("../images/home/TB-home-CC.png");
+.bg-cc,
+.bg-la,
+.bg-cs {
+  margin: 10px;
 }
 
-.bg-footer.bg-cs {
-  background-image: url("../images/home/TB-home-CS.png");
+.bg-cc {
+  background: url("../images/home/TB-home-CC.png") no-repeat;
 }
 
-.bg-footer.bg-ps {
-  background-image: url("../images/home/TB-home-PS.png");
+.bg-cs {
+  background: url("../images/home/TB-home-CS.png") no-repeat;
 }
 
-.bg-footer.bg-la {
-  background-image: url("../images/home/TB-home-LS.png");
+.bg-ps {
+  background: url("../images/home/TB-home-PS.png") no-repeat;
+}
+
+.bg-la {
+  background: url("../images/home/TB-home-LS.png") no-repeat;
 }
 
 .bg {
@@ -890,7 +897,7 @@ footer span {
   color: #ffffff;
   padding: 5%;
   display: block;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   margin-top: 10%;
 }
 
@@ -1011,25 +1018,8 @@ footer span {
   text-decoration: none;
 }
 
-.the-end a {
-  color: #ffffff;
-  text-decoration: none;
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-weight: normal;
-  height: 100%;
-  width: 100%;
-  padding: 20%;
-  padding-top: 26%;
-}
-
-.the-end a:hover {
-  color: #ffffff;
-  text-decoration: none;
+.the-end {
+  padding-bottom: 120px;
 }
 
 @media (max-width: 1024px) {
@@ -1225,3 +1215,60 @@ footer span {
   z-index: 1;
   width: 100%;
 }
+
+
+
+/* BOTTOM DIVISIONS START */
+.divisions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.division-box {
+  width: 30%;
+  height: 300px;
+  font-size: 32px;
+  line-height: 47px;
+  text-align: center;
+  color: #fff;
+  margin-right: 25px;
+  border: 1px solid #98e1f3;
+  color: #fff;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.division-box:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #00b8e7;
+}
+
+.cc-division {
+  background: url("../images/home/TB-home-CC.png") no-repeat center center;
+  background-size: cover;
+}
+
+.ls-division {
+  background: url("../images/home/TB-home-LS.png") no-repeat center center;
+  background-size: cover;
+}
+
+.sw-division {
+  background: url("../images/home/TB-home-CS.png") no-repeat center center;
+  background-size: cover;
+}
+
+.cc-division:hover,
+.ls-division:hover,
+.sw-division:hover {
+  background: #00b8e7;
+}
+
+/* BOTTOM DIVISIONS END */
