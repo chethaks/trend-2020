@@ -319,9 +319,9 @@ footer span {
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
-  line-height: 80px;
-  position: relative;
-  left: 7px;
+  position: absolute;
+  left: 70px;
+  top: 61px;
 }
 
 .intro-video .videobg-container div:nth-child(3) {
@@ -1176,6 +1176,10 @@ footer span {
 
   .intro-video .videobg-container div h3 {
     font-size: 50px !important;
+  }
+
+  #gmt-txt{
+    font-size: 30px !important;
   }
 }
 
